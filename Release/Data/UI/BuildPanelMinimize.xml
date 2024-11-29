@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="Maximum" Y="Center" Width="46" Height="476" FixedPosition="1" Layer="1"/>
+
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\BuildPanelMinimize.png" X="0" Y="0" W="46" H="476"/>
+		<!-- Window name -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="1|29" Y="436|461">~T_Tilde</Text>
+		<Button ImageId="Window" Event="!BuildMode" Src="Data\Textures\UI\None.png" X="0" Y="429" W="46" H="32"/>
+		<!-- Window -->
+			<!-- 1 -->
+			<Button ImageId="Window" Event="!BarnBuild" Src="Data\Textures\UI\None.png" X="11" Y="1" W="35" H="35"/>
+			
+			<!-- 2 -->
+			<Button ImageId="Window" Event="!SawmillBuild" Src="Data\Textures\UI\None.png" X="11" Y="40" W="35" H="35"/>
+			
+			<!-- 3 -->
+			<Button ImageId="Window" Event="!SuburbBuild" Src="Data\Textures\UI\None.png" X="11" Y="79" W="35" H="35"/>
+			
+			<!-- 4 -->
+			<Button ImageId="Window" Event="!FieldBuild" Src="Data\Textures\UI\None.png" X="11" Y="118" W="35" H="35"/>
+			
+			<!-- 5 -->
+			<Button ImageId="Window" Event="!PastureBuild" Src="Data\Textures\UI\None.png" X="11" Y="157" W="35" H="35"/>
+			
+			<!-- 6 -->
+			<Button ImageId="Window" Event="!FisheriesBuild" Src="Data\Textures\UI\None.png" X="11" Y="196" W="35" H="35"/>
+			
+			<!-- 7 -->
+			<Button ImageId="Window" Event="!WallBuild" Src="Data\Textures\UI\None.png" X="11" Y="235" W="35" H="35"/>
+			
+			<!-- 8 -->
+			<Button ImageId="Window" Event="!TowerBuild" Src="Data\Textures\UI\None.png" X="11" Y="274" W="35" H="35"/>
+			
+			<!-- 9 -->
+			<Button ImageId="Window" Event="!CastleBuild" Src="Data\Textures\UI\None.png" X="11" Y="313" W="35" H="35"/>
+			
+			<!-- 0 -->
+			<Button ImageId="Window" Event="!DomainBuild" Src="Data\Textures\UI\None.png" X="11" Y="352" W="35" H="35"/>
+			
+			<!-- 10 -->
+			<Button ImageId="Window" Event="!PlunderBuild" Src="Data\Textures\UI\None.png" X="11" Y="391" W="35" H="35"/>
+</Data>

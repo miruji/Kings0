@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Setting Name="Title">Kings0</Setting>
+	<Setting Name="Version">220822</Setting>
+	
+	<Setting Name="Size">1280x720</Setting>
+	<Setting Name="WindowMode">0</Setting>
+	<Setting Name="VerticalSync">0</Setting>
+	<Setting Name="FramerateLimit">60</Setting>
+	
+	<Setting Name="Soundtrack">80</Setting>
+	<Setting Name="SoundEffects">80</Setting>
+	
+	<Setting Name="Language">Eng</Setting>
+</Data>

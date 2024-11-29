@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Setting Name="Size">3840x2160</Setting>
+	<Setting Name="WindowMode">1</Setting>
+	<Setting Name="VerticalSyns">0</Setting>
+	<Setting Name="FramerateLimit">0</Setting>
+
+	<Setting Name="Soundtrack">0</Setting>
+	<Setting Name="SoundEffects">16</Setting>
+
+	<Setting Name="Language">Rus</Setting>
+</Data>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0671c294-38f9-43cd-bd3e-f184d12b2cb8}</ProjectGuid>
+    <RootNamespace>K0EAI</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)</TargetName>
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)$(Configuration)\Bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;K0EAI_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <AdditionalIncludeDirectories>$(SolutionDir)K0E\SFML\include\;$(SolutionDir)tinyxml\;$(SolutionDir)K0E.XMLParser\;$(SolutionDir)K0E.Map\;$(SolutionDir)K0E.Console\</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <PrecompiledHeaderOutputFile />
+      <ProgramDataBaseFileName />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)K0E\Lib\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>K0E.XML.lib;K0E.XMLParser.lib;K0E.Map.lib;K0E.Console.lib;sfml-system.lib;sfml-graphics.lib;sfml-window.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <ImportLibrary>$(SolutionDir)K0E\Lib\$(TargetName).lib</ImportLibrary>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ManifestFile />
+      <ProgramDatabaseFile />
+      <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\K0E.Window\Mouse\Mouse.h" />
+    <ClInclude Include="Caste\CasteTypes.h" />
+    <ClInclude Include="Caste\SettlementTypes.h" />
+    <ClInclude Include="Caste\Unit.h" />
+    <ClInclude Include="Event\Event.h" />
+    <ClInclude Include="Event\RandomEvent.h" />
+    <ClInclude Include="Func\GetRandomNumber.h" />
+    <ClInclude Include="Func\SearchChar.h" />
+    <ClInclude Include="Func\StringToColor.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Caste\Caste.h" />
+    <ClInclude Include="Caste\Settlement.h" />
+    <ClInclude Include="Item\Item.h" />
+    <ClInclude Include="Macro.h" />
+    <ClInclude Include="Player\Player.h" />
+    <ClInclude Include="Squad\Squad.h" />
+    <ClInclude Include="Squad\Character.h" />
+    <ClInclude Include="Technology\Technology.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\K0E.Window\Mouse\Mouse.cpp" />
+    <ClCompile Include="Caste\Caste.cpp" />
+    <ClCompile Include="Caste\Settlement.cpp" />
+    <ClCompile Include="Caste\Unit.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Event\Event.cpp" />
+    <ClCompile Include="Event\RandomEvent.cpp" />
+    <ClCompile Include="Func\GetRandomNumber.cpp" />
+    <ClCompile Include="Func\SearchChar.cpp" />
+    <ClCompile Include="Func\StringToColor.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Item\Item.cpp" />
+    <ClCompile Include="Player\Player.cpp" />
+    <ClCompile Include="Squad\Squad.cpp" />
+    <ClCompile Include="Squad\Character.cpp" />
+    <ClCompile Include="Technology\Technology.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="100" Y="Center" Width="603" Height="481" FixedPosition="1"/>
+
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\MainMenuSettings0.png" X="0" Y="0" W="603" H="481"/>
+		<!-- Window name -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="6|565" Y="6|25">~T_SettingsSound</Text>
+		<!-- Window exit -->
+		<Button ImageId="Window" Event="!Close" Src="Data\Textures\UI\None.png" X="575" Y="5" W="23" H="46"/>
+		
+		<!-- Settings parts buttons -->
+			<!-- Window part -->
+			<Button ImageId="Window" Event="@MainMenuSettingsGame" Src="Data\Textures\UI\None.png" X="5" Y="30" W="138" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="5|143" Y="30|51">~B_Game</Text>
+			
+			<!-- Sound part -->
+			<Button ImageId="Window" Event="@MainMenuSettingsWindow" Src="Data\Textures\UI\None.png" X="147" Y="30" W="138" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="147|285" Y="30|51">~B_Window</Text>
+			
+			<!-- Game part -->
+			<Button ImageId="Window" Event="@MainMenuSettingsSound" Src="Data\Textures\UI\None.png" X="289" Y="30" W="138" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="289|427" Y="30|51">~B_Sound</Text>
+			
+			<!-- Control part -->
+			<Button ImageId="Window" Event="@MainMenuSettingsControl" Src="Data\Textures\UI\None.png" X="431" Y="30" W="135" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="431|566" Y="30|51">~B_Control</Text>
+		
+		<!-- Main -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="28" Y="72">~T_Soundtrack2</Text>
+		
+		<CheckBox ImageId="Window" Spec="" CheckEvent="RandomMusicType" X="32" Y="106">~T_RandomMusic</CheckBox>
+		<CheckBox ImageId="Window" Spec="" CheckEvent="RepeatMusicType" X="32" Y="152">~T_RepeatMusic</CheckBox>
+		
+		<Image  ImageId="Window" Src="Data\Textures\UI\SettingsListPanel.png" X="28" Y="198" W="323" H="23"/>
+		<Button ImageId="Window" Event="!BackMusic" Src="Data\Textures\UI\None.png" X="28" Y="199" W="19" H="23"/>
+		<Button ImageId="Window" Event="!NextMusic" Src="Data\Textures\UI\None.png" X="332" Y="199" W="19" H="23"/>
+		<Text   ImageId="Window" Spec="MusicCount" Color="rgba(255,255,255,255)" X="47|332" Y="200">~T_NowPlaying</Text>
+		
+		<SlideInt Id="Soundtrack" ImageId="Window" Min="0" Max="100" X="28" Y="252" W="323"/>
+		<Text ImageId="Window" Color="rgba(255,255,255,255)" X="32" Y="231">~T_Soundtrack3</Text>
+		<SlideInt Id="SoundEffects" ImageId="Window" Min="0" Max="100" X="28" Y="314" W="323"/>
+		<Text ImageId="Window" Color="rgba(255,255,255,255)" X="32" Y="291">~T_Soundtrack4</Text>
+		
+</Data>

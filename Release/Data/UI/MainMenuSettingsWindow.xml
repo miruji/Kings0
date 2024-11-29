@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="100" Y="Center" Width="603" Height="481" FixedPosition="1"/>
+
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\MainMenuSettings0.png" X="0" Y="0" W="603" H="481"/>
+		<!-- Window name -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="6|565" Y="6|25">~T_SettingsWindow</Text>
+		<!-- Window exit -->
+		<Button ImageId="Window" Event="!Close" Src="Data\Textures\UI\None.png" X="575" Y="5" W="23" H="46"/>
+		
+		<!-- Settings parts buttons -->
+			<Button ImageId="Window" Event="@MainMenuSettingsGame" Src="Data\Textures\UI\None.png" X="5" Y="30" W="138" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="5|143" Y="30|51">~B_Game</Text>
+			
+			<!-- Sound part -->
+			<Button ImageId="Window" Event="@MainMenuSettingsWindow" Src="Data\Textures\UI\None.png" X="147" Y="30" W="138" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="147|285" Y="30|51">~B_Window</Text>
+			
+			<!-- Game part -->
+			<Button ImageId="Window" Event="@MainMenuSettingsSound" Src="Data\Textures\UI\None.png" X="289" Y="30" W="138" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="289|427" Y="30|51">~B_Sound</Text>
+			
+			<!-- Control part -->
+			<Button ImageId="Window" Event="@MainMenuSettingsControl" Src="Data\Textures\UI\None.png" X="431" Y="30" W="135" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="431|566" Y="30|51">~B_Control</Text>
+			
+		<!-- Main -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="28" Y="72">~T_WindowMode2</Text>
+		<Image  Id="Window" Src="Data\Textures\UI\SettingsComboPanel.png" X="31" Y="97" W="224" H="18"/>
+		<ComboBox Id="WindowMode" ImageId="Window" Spec="" Text="~T_WindowMode" X="32" Y="98" Width="224"/>
+		
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="28" Y="152">~T_VideoMode2</Text>
+		<Image  ImageId="Window" Src="Data\Textures\UI\SettingsComboPanel.png" X="31" Y="175" W="224" H="18"/>
+		<ComboBox Id="VideoMode" ImageId="Window" Spec="" Text="~T_VideoMode" X="32" Y="176" Width="224"/>
+		
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="28" Y="232">~T_FramerateLimit2</Text>
+		<Image  ImageId="Window" Src="Data\Textures\UI\SettingsComboPanel.png" X="31" Y="253" W="224" H="18"/>
+		<ComboBox Id="FramerateLimit" ImageId="Window" Spec="" Text="~T_FramerateLimit" X="32" Y="254" Width="224"/>
+		
+		<CheckBox ImageId="Window" Spec="" CheckEvent="VerticalSync" X="32" Y="312">~T_VerticalSensitivity</CheckBox>
+		
+		<!-- Reset button -->
+		<Button ImageId="Window" Event="!MainMenuSettingsReset" Message="1" Src="Data\Textures\UI\None.png" X="404" Y="455" W="95" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="404|499" Y="455|476">~B_Reset</Text>
+		
+		<!-- Apply button -->
+		<Button ImageId="Window" Event="!MainMenuSettingsApply" Message="1" Src="Data\Textures\UI\None.png" X="503" Y="455" W="95" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="503|598" Y="455|476">~B_Apply</Text>
+		
+</Data>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="0" Y="Center" Width="54" Height="238" FixedPosition="1" Layer="1"/>
+
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\LeftBlockNoneMinimize0.png" X="0" Y="0" W="54" H="238"/>
+		<!-- Hide button -->
+		<Button ImageId="Window" Event="!Tab" Src="Data\Textures\UI\None.png" X="0" Y="191" W="54" H="32"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="18|54" Y="192|223">Tab</Text>
+		
+</Data>

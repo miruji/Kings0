@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="100" Y="Center" Width="603" Height="481" FixedPosition="1"/>
+
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\MainMenuSettings0.png" X="0" Y="0" W="603" H="481"/>
+		<!-- Window name -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="6|565" Y="6|25">~T_SettingsControl</Text>
+		<!-- Window exit -->
+		<Button ImageId="Window" Event="!Close" Src="Data\Textures\UI\None.png" X="575" Y="5" W="23" H="46"/>
+		
+		<!-- Settings parts buttons -->
+			<!-- Window part -->
+			<Button ImageId="Window" Event="@MainMenuSettingsGame" Src="Data\Textures\UI\None.png" X="5" Y="30" W="138" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="5|143" Y="30|51">~B_Game</Text>
+			
+			<!-- Sound part -->
+			<Button ImageId="Window" Event="@MainMenuSettingsWindow" Src="Data\Textures\UI\None.png" X="147" Y="30" W="138" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="147|285" Y="30|51">~B_Window</Text>
+			
+			<!-- Game part -->
+			<Button ImageId="Window" Event="@MainMenuSettingsSound" Src="Data\Textures\UI\None.png" X="289" Y="30" W="138" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="289|427" Y="30|51">~B_Sound</Text>
+			
+			<!-- Control part -->
+			<Button ImageId="Window" Event="@MainMenuSettingsControl" Src="Data\Textures\UI\None.png" X="431" Y="30" W="135" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="431|566" Y="30|51">~B_Control</Text>
+		
+		<!-- Main -->
+			<!-- Text area -->
+			<TextWrapped ImageId="Window" X="6" Y="56" W="591" H="384">~TA_SettingsControl</TextWrapped>
+		
+			<!-- Up & down buttons -->
+			<Button ImageId="Window" Event="!TextAreaUp" Src="Data\Textures\UI\None.png" X="373" Y="56" W="21" H="17"/>
+			<Button ImageId="Window" Event="!TextAreaDown" Src="Data\Textures\UI\None.png" X="373" Y="352" W="21" H="17"/>
+		
+</Data>

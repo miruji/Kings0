@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="Center" Y="224" Width="597" Height="400" FixedPosition="0" Layer="1"/>
+			
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\LogTechnology.png" X="0" Y="0" W="597" H="400"/>
+		<Image Id="WindowList" ImageId="Window" Src="Data\Textures\UI\LogTechnologyList1.png" X="6" Y="81" W="558" H="313"/>
+		<!-- Window name -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="6|559" Y="6|25">~T_Technology1</Text>
+		<!-- Log items -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="6|141" Y="31|50">~B_Main</Text>
+		<Button ImageId="Window" Event="!GameLog" Src="Data\Textures\UI\None.png" X="5" Y="30" W="137" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="147|279" Y="31|50">~B_Technology</Text>
+		<Button ImageId="Window" Event="!GameLogTechnology0" Src="Data\Textures\UI\None.png" X="146" Y="30" W="134" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="423|559" Y="31|50">~B_Diplomacy</Text>
+		<Button ImageId="Window" Event="!GameLogDiplomacy" Src="Data\Textures\UI\None.png" X="422" Y="30" W="138" H="21"/>
+		<!-- Window exit -->
+		<Button ImageId="Window" Event="!Close" Src="Data\Textures\UI\None.png" X="570" Y="6" W="21" H="44"/>
+		<!-- Window -->
+			<!-- Tabs -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="6|92" Y="56|75">~T_Movement</Text>
+			<Button ImageId="Window" Event="!GameLogTechnology0" Src="Data\Textures\UI\None.png" X="5" Y="55" W="88" H="21"/>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="98|188" Y="56|75">~T_Buildings</Text>
+			<Button ImageId="Window" Event="!GameLogTechnology1" Src="Data\Textures\UI\None.png" X="97" Y="55" W="92" H="21"/>
+			
+			<!-- 0 (8-12) -->
+			<Image Id="TechnologyItem0" ImageId="WindowList" Src="Data\Textures\UI\None.png" X="34" Y="55" W="162" H="233"/>
+			<Text  ImageId="WindowList" Color="rgba(255,255,255,255)" X="15" Y="23|55">~T_BuildingsLimit</Text>
+			
+				<Button Id="TechnologyLearn_8" ImageId="TechnologyItem0" Event="!TechnologyLearn_8" Message="1" Src="Data\Textures\UI\None.png" X="0" Y="0" W="83" H="32"/>
+				<Image Id="TechnologyLearn_8" ImageId="TechnologyItem0" Src="Data\Textures\UI\LearnedButton1.png" X="0" Y="0" W="32" H="32"/>
+				<Text  ImageId="TechnologyItem0" Color="rgba(255,255,255,255)" X="32|82" Y="1|31">15</Text>
+				
+				<Button Id="TechnologyLearn_9" ImageId="TechnologyItem0" Event="!TechnologyLearn_9" Message="1" Src="Data\Textures\UI\None.png" X="102" Y="0" W="83" H="32"/>
+				<Image Id="TechnologyLearn_9" ImageId="TechnologyItem0" Src="Data\Textures\UI\LearnedButton1.png" X="102" Y="1" W="32" H="32"/>
+				<Text  ImageId="TechnologyItem0" Color="rgba(255,255,255,255)" X="134|184" Y="1|31">30</Text>
+				
+				<Button Id="TechnologyLearn_10" ImageId="TechnologyItem0" Event="!TechnologyLearn_10" Message="1" Src="Data\Textures\UI\None.png" X="204" Y="0" W="83" H="32"/>
+				<Image Id="TechnologyLearn_10" ImageId="TechnologyItem0" Src="Data\Textures\UI\LearnedButton1.png" X="204" Y="1" W="32" H="32"/>
+				<Text  ImageId="TechnologyItem0" Color="rgba(255,255,255,255)" X="236|286" Y="1|31">45</Text>
+				
+				<Button Id="TechnologyLearn_11" ImageId="TechnologyItem0" Event="!TechnologyLearn_11" Message="1" Src="Data\Textures\UI\None.png" X="306" Y="0" W="83" H="32"/>
+				<Image Id="TechnologyLearn_11" ImageId="TechnologyItem0" Src="Data\Textures\UI\LearnedButton1.png" X="306" Y="1" W="32" H="32"/>
+				<Text ImageId="TechnologyItem0" Color="rgba(255,255,255,255)" X="338|388" Y="1|31">60</Text>
+				
+				<Button Id="TechnologyLearn_12" ImageId="TechnologyItem0" Event="!TechnologyLearn_12" Message="1" Src="Data\Textures\UI\None.png" X="408" Y="0" W="83" H="32"/>
+				<Image Id="TechnologyLearn_12" ImageId="TechnologyItem0" Src="Data\Textures\UI\LearnedButton1.png" X="408" Y="1" W="32" H="32"/>
+				<Text  ImageId="TechnologyItem0" Color="rgba(255,255,255,255)" X="440|490" Y="1|31">75</Text>
+			
+</Data>

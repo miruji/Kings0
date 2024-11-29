@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1c598f34-5861-4266-b420-a0d2ea33f204}</ProjectGuid>
+    <RootNamespace>K0EWindow</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)</TargetName>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)$(Configuration)\Bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;K0EWINDOW_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)K0E\SFML\include\;$(SolutionDir)K0E.Window\UI\ImGui\;$(SolutionDir)K0E.Window\UI\GLFW\;$(SolutionDir)K0E.Map\;$(SolutionDir)K0E.Language\;$(SolutionDir)K0E.Game\;$(SolutionDir)K0E.Audio\;$(SolutionDir)K0E.SteamApi\;$(SolutionDir)K0E.SteamAPI\steam;$(SolutionDir)K0E.File\;$(SolutionDir)tinyxml\;$(SolutionDir)K0E.XMLParser\;$(SolutionDir)K0E.Network\</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <ProgramDataBaseFileName />
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ManifestFile />
+      <ProgramDatabaseFile />
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ImportLibrary>$(SolutionDir)K0E\Lib\$(TargetName).lib</ImportLibrary>
+      <AdditionalDependencies>K0E.Console.lib;opengl32.lib;sfml-system.lib;sfml-window.lib;sfml-graphics.lib;sfml-audio.lib;sfml-network.lib;ogg.lib;openal32.lib;K0E.XML.lib;K0E.XMLParser.lib;K0E.Map.lib;K0E.File.lib;K0E.Language.lib;K0E.Game.lib;K0E.Audio.lib;K0E.SteamAPI.lib;sdkencryptedappticket.lib;steam_api.lib;K0E.Network.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)K0E\Lib\;$(SolutionDir)K0E.SteamAPI\steam\lib\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera\Camera.h" />
+    <ClInclude Include="Cursor\Cursor.h" />
+    <ClInclude Include="Func\CharToInt.h" />
+    <ClInclude Include="Func\ColorGenerate.h" />
+    <ClInclude Include="Func\CutBackNum.h" />
+    <ClInclude Include="Func\DevideOutCharacter.h" />
+    <ClInclude Include="Func\GetBackEventNumber.h" />
+    <ClInclude Include="Func\GetRandomNumber.h" />
+    <ClInclude Include="Func\NumToKeyCode.h" />
+    <ClInclude Include="Func\SearchChar.h" />
+    <ClInclude Include="Func\StringToColor.h" />
+    <ClInclude Include="Func\StringToWString.h" />
+    <ClInclude Include="Func\ThisInt.h" />
+    <ClInclude Include="Func\ThisSymbol.h" />
+    <ClInclude Include="Macro.h" />
+    <ClInclude Include="MapPointer\MapPointer.h" />
+    <ClInclude Include="Mouse\Mouse.h" />
+    <ClInclude Include="NewGameCaste\NewGameCaste.h" />
+    <ClInclude Include="UI\UICheckBox.h" />
+    <ClInclude Include="UI\UIComboBox.h" />
+    <ClInclude Include="UI\UIInput.h" />
+    <ClInclude Include="UI\UI.h" />
+    <ClInclude Include="UI\UIBlock.h" />
+    <ClInclude Include="UI\UIButton.h" />
+    <ClInclude Include="UI\UIGif.h" />
+    <ClInclude Include="UI\UIImage.h" />
+    <ClInclude Include="UI\UIObject.h" />
+    <ClInclude Include="UI\UISlideInt.h" />
+    <ClInclude Include="UI\UIText.h" />
+    <ClInclude Include="UI\UITextWrapped.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera\Camera.cpp" />
+    <ClCompile Include="CreateNewRender.cpp" />
+    <ClCompile Include="Cursor\Cursor.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Draw.cpp" />
+    <ClCompile Include="Func\CharToInt.cpp" />
+    <ClCompile Include="Func\ColorGenerate.cpp" />
+    <ClCompile Include="Func\CutBackNum.cpp" />
+    <ClCompile Include="Func\DevideOutCharacter.cpp" />
+    <ClCompile Include="Func\GetBackEventNumber.cpp" />
+    <ClCompile Include="Func\GetRandomNumber.cpp" />
+    <ClCompile Include="Func\NumToKeyCode.cpp" />
+    <ClCompile Include="Func\SearchChar.cpp" />
+    <ClCompile Include="Func\StringToColor.cpp" />
+    <ClCompile Include="Func\StringToWString.cpp" />
+    <ClCompile Include="Func\ThisInt.cpp" />
+    <ClCompile Include="Func\ThisSymbol.cpp" />
+    <ClCompile Include="Game\AddNewGamePlayer.cpp" />
+    <ClCompile Include="Game\CreateMaps.cpp" />
+    <ClCompile Include="Game\CreateNewGame.cpp" />
+    <ClCompile Include="Game\CreateNewSettlement.cpp" />
+    <ClCompile Include="Game\CreateNewWindowCamera.cpp" />
+    <ClCompile Include="Game\DeleteGame.cpp" />
+    <ClCompile Include="Game\DeleteItem.cpp" />
+    <ClCompile Include="Game\DeleteSettlement.cpp" />
+    <ClCompile Include="Game\GetItemStatus.cpp" />
+    <ClCompile Include="Game\GetItemStatusResult.cpp" />
+    <ClCompile Include="Game\KickNewGamePlayer.cpp" />
+    <ClCompile Include="Game\LoadGame.cpp" />
+    <ClCompile Include="Game\EnemyUnitDie.cpp" />
+    <ClCompile Include="Game\PlayerUnitDie.cpp" />
+    <ClCompile Include="Game\RegenerateNoEntryMap.cpp" />
+    <ClCompile Include="Game\SaveGame.cpp" />
+    <ClCompile Include="Game\SearchBackYourDomain.cpp" />
+    <ClCompile Include="Game\SearchNextBlockDomain.cpp" />
+    <ClCompile Include="Game\SearchNextBlockEnemy.cpp" />
+    <ClCompile Include="Game\SetNewCasteAttitude.cpp" />
+    <ClCompile Include="Game\SetNewDomain.cpp" />
+    <ClCompile Include="Game\SetNewPreview.cpp" />
+    <ClCompile Include="Game\TechnologyEvent.cpp" />
+    <ClCompile Include="Game\TradeItemsUpdate.cpp" />
+    <ClCompile Include="Game\UpdateAttitudeStatus.cpp" />
+    <ClCompile Include="Game\UpdateDomainPreview.cpp" />
+    <ClCompile Include="Game\UpdateLandMapSettlements.cpp" />
+    <ClCompile Include="Game\UpdateNewGamePlayer.cpp" />
+    <ClCompile Include="GetWindowPosition.cpp" />
+    <ClCompile Include="Input\Control_Ctrl.cpp" />
+    <ClCompile Include="Input\Control_Esc.cpp" />
+    <ClCompile Include="Input\Control_MainMenuNumbers.cpp" />
+    <ClCompile Include="Input\Control_Numbers.cpp" />
+    <ClCompile Include="Input\Control_NumbersEvents.cpp" />
+    <ClCompile Include="Input\Control_QEZC.cpp" />
+    <ClCompile Include="Input\Control_O.cpp" />
+    <ClCompile Include="Input\Control_M.cpp" />
+    <ClCompile Include="Input\Control_N.cpp" />
+    <ClCompile Include="Input\Control_P.cpp" />
+    <ClCompile Include="Input\Control_SettlementNumbers.cpp" />
+    <ClCompile Include="Input\Control_Shift.cpp" />
+    <ClCompile Include="Input\Control_Tab.cpp" />
+    <ClCompile Include="Input\Control_Tilde.cpp" />
+    <ClCompile Include="Input\Control_Zoom.cpp" />
+    <ClCompile Include="Input\UI_BuyUnit.cpp" />
+    <ClCompile Include="Input\UI_GenerateNewGamePlayers.cpp" />
+    <ClCompile Include="Input\UI_GenerateNewGamePlayersColor.cpp" />
+    <ClCompile Include="Input\UI_GetLeftBlockName.cpp" />
+    <ClCompile Include="Input\UI_HideByImageId.cpp" />
+    <ClCompile Include="Input\UI_HideImageButton.cpp" />
+    <ClCompile Include="Input\UI_InventoryUpdate.cpp" />
+    <ClCompile Include="Input\UI_LeftBlockHideButtons.cpp" />
+    <ClCompile Include="Input\UI_LeftBlockUpdate.cpp" />
+    <ClCompile Include="Input\UI_InventoryUnitClearUpdate.cpp" />
+    <ClCompile Include="Input\UI_InventoryUnitUpdate.cpp" />
+    <ClCompile Include="Input\Control_Arrows.cpp" />
+    <ClCompile Include="Input\Control_B.cpp" />
+    <ClCompile Include="Input\Control_G.cpp" />
+    <ClCompile Include="Input\Control_H.cpp" />
+    <ClCompile Include="Input\Game_InSettlement.cpp" />
+    <ClCompile Include="Input\Control_Progress.cpp" />
+    <ClCompile Include="Input\Control_F.cpp" />
+    <ClCompile Include="Input\Game_PlayerWarFog.cpp" />
+    <ClCompile Include="Input\Control_WAXD.cpp" />
+    <ClCompile Include="Input\Control_R.cpp" />
+    <ClCompile Include="Input\Input.cpp" />
+    <ClCompile Include="Input\UI_LoadGamePointerUpdate.cpp" />
+    <ClCompile Include="Input\UI_LoadGameUpdate.cpp" />
+    <ClCompile Include="Input\UI_LogDiplomacyBigUpdate.cpp" />
+    <ClCompile Include="Input\UI_LogDiplomacyUpdate.cpp" />
+    <ClCompile Include="Input\UI_NewGameFlag.cpp" />
+    <ClCompile Include="Input\UI_NewGameNation.cpp" />
+    <ClCompile Include="Input\UI_SearchMessage.cpp" />
+    <ClCompile Include="Input\UI_SellUnit.cpp" />
+    <ClCompile Include="Input\UI_SetMainMenu.cpp" />
+    <ClCompile Include="Input\UI_ShowAllElements.cpp" />
+    <ClCompile Include="Input\UI_UpdateComboBoxsCurrentItems.cpp" />
+    <ClCompile Include="Input\UI_UpdateGameBasicFlag.cpp" />
+    <ClCompile Include="Input\UI_UpdateMapPointer.cpp" />
+    <ClCompile Include="Input\UI_UpdateNewGameItems.cpp" />
+    <ClCompile Include="Input\UI_UpdateNewGameMapImage.cpp" />
+    <ClCompile Include="Input\UI_UpdateNewGamePlayerIcon.cpp" />
+    <ClCompile Include="Input\UI_UpdateTechnologyBack.cpp" />
+    <ClCompile Include="Input\UI_UpdateTechnologyButtons.cpp" />
+    <ClCompile Include="MapPointer\MapPointer.cpp" />
+    <ClCompile Include="Mouse\Mouse.cpp" />
+    <ClCompile Include="Network\ConnectToIpAndPort.cpp" />
+    <ClCompile Include="Network\CreateServer.cpp" />
+    <ClCompile Include="NewGameCaste\NewGameCaste.cpp" />
+    <ClCompile Include="SaveSettings.cpp" />
+    <ClCompile Include="SetWindowFocus.cpp" />
+    <ClCompile Include="UI\ImGui\imgui-SFML.cpp" />
+    <ClCompile Include="UI\ImGui\imgui.cpp" />
+    <ClCompile Include="UI\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="UI\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="UI\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="UI\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="UI\UIComboBoxEvent.cpp" />
+    <ClCompile Include="UI\UICheckBox.cpp" />
+    <ClCompile Include="UI\UICheckBoxEvent.cpp" />
+    <ClCompile Include="UI\UIComboBox.cpp" />
+    <ClCompile Include="UI\UIComboBoxTextUpdate.cpp" />
+    <ClCompile Include="UI\UIEventSound.cpp" />
+    <ClCompile Include="UI\UIDraw.cpp" />
+    <ClCompile Include="UI\UIEvent.cpp" />
+    <ClCompile Include="UI\UISlideInt.cpp" />
+    <ClCompile Include="UI\UISlideIntUpdate.cpp" />
+    <ClCompile Include="UI\UISpec.cpp" />
+    <ClCompile Include="UI\UIInput.cpp" />
+    <ClCompile Include="UI\UI.cpp" />
+    <ClCompile Include="UI\UIBlock.cpp" />
+    <ClCompile Include="UI\UIButton.cpp" />
+    <ClCompile Include="UI\UIGif.cpp" />
+    <ClCompile Include="UI\UIImage.cpp" />
+    <ClCompile Include="UI\UIObject.cpp" />
+    <ClCompile Include="UI\UIText.cpp" />
+    <ClCompile Include="UI\UITextWrapped.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Link Src="MainMenu0.xml"/>
+	<Link Src="MainMenu1.xml"/>
+	
+	<Link Src="MainMenuNewGame0.xml"/>
+	<Link Src="MainMenuNewGame1.xml"/>
+	
+		<Link Src="Guide0.xml"/>
+		<Link Src="Guide1.xml"/>
+		<Link Src="Guide2.xml"/>
+		<Link Src="Guide3.xml"/>
+		<Link Src="Guide4.xml"/>
+		<Link Src="Guide5.xml"/>
+		<Link Src="Guide6.xml"/>
+		<Link Src="Guide7.xml"/>
+		<Link Src="Guide8.xml"/>
+		<Link Src="Guide9.xml"/>
+		<Link Src="Guide10.xml"/>
+		<Link Src="Guide11.xml"/>
+	
+	<Link Src="MainMenuSettingsGame.xml"/>
+	<Link Src="MainMenuSettingsWindow.xml"/>
+	<Link Src="MainMenuSettingsSound.xml"/>
+	<Link Src="MainMenuSettingsControl.xml"/>
+	
+	<Link Src="MainMenuAuthors.xml"/>
+	
+	<Link Src="Message.xml"/>
+	
+	<Link Src="BuildPanel.xml"/>
+	<Link Src="BuildPanelMinimize.xml"/>
+	
+	<Link Src="LeftDownButtons.xml"/>
+
+	<Link Src="LeftBlockNone.xml"/>
+	<Link Src="LeftBlockNoneMinimize.xml"/>
+	<Link Src="LeftBlockWater.xml"/>
+	<Link Src="LeftBlockWaterMinimize.xml"/>
+	<Link Src="LeftBlockRiver.xml"/>
+	<Link Src="LeftBlockRiverMinimize.xml"/>
+	<Link Src="LeftBlockLake.xml"/>
+	<Link Src="LeftBlockLakeMinimize.xml"/>
+	<Link Src="LeftBlockForest.xml"/>
+	<Link Src="LeftBlockForestMinimize.xml"/>
+	<Link Src="LeftBlockMountain.xml"/>
+	<Link Src="LeftBlockMountainMinimize.xml"/>
+	<Link Src="LeftBlockForestMountain.xml"/>
+	<Link Src="LeftBlockForestMountainMinimize.xml"/>
+	<Link Src="LeftBlockWaterMountain.xml"/>
+	<Link Src="LeftBlockWaterMountainMinimize.xml"/>
+	<Link Src="LeftBlockLand.xml"/>
+	<Link Src="LeftBlockLandMinimize.xml"/>
+	
+	<Link Src="LeftBlockSettlement.xml"/>
+	<Link Src="LeftBlockSettlementMinimize.xml"/>
+	<Link Src="LeftBlockBarn.xml"/>
+	<Link Src="LeftBlockBarnMinimize.xml"/>
+	<Link Src="LeftBlockWall.xml"/>
+	<Link Src="LeftBlockWallMinimize.xml"/>
+	<Link Src="LeftBlockTower.xml"/>
+	<Link Src="LeftBlockTowerMinimize.xml"/>
+	<Link Src="LeftBlockCastle.xml"/>
+	<Link Src="LeftBlockCastleMinimize.xml"/>
+	<Link Src="LeftBlockSuburb.xml"/>
+	<Link Src="LeftBlockSuburbMinimize.xml"/>
+	<Link Src="LeftBlockField.xml"/>
+	<Link Src="LeftBlockFieldMinimize.xml"/>
+	<Link Src="LeftBlockPasture.xml"/>
+	<Link Src="LeftBlockPastureMinimize.xml"/>
+	<Link Src="LeftBlockFisheries.xml"/>
+	<Link Src="LeftBlockFisheriesMinimize.xml"/>
+	<Link Src="LeftBlockSawmill.xml"/>
+	<Link Src="LeftBlockSawmillMinimize.xml"/>
+
+	<Link Src="GameBasic.xml"/>
+		
+			<Link Src="GameSettlementHall.xml"/>
+			<Link Src="GameSettlementElder.xml"/>
+			<Link Src="GameSettlementMarket.xml"/>
+			<Link Src="GameSettlementTavern.xml"/>
+			
+		<Link Src="GameLog.xml"/>
+		<Link Src="GameLogTechnology0.xml"/>
+		<Link Src="GameLogTechnology1.xml"/>
+		<Link Src="GameLogDiplomacy.xml"/>
+
+</Data>

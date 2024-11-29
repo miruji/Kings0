@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="0" Y="0" Width="0" Height="0" FixedPosition="1" Layer="0"/>
+	
+	<!-- Background -->
+	<Image Id="Background" Src="Data\Textures\UI\MainMenu.png" X="Center" Y="Center" W="1280" H="768"/>
+	<!-- Notice -->
+	<Image Id="Notice" Src="Data\Textures\UI\None.png" X="128" Y="Center" W="344" H="352"/>
+		<!-- Text -->
+		<Text ImageId="Notice" Color="rgba(255,255,255,255)" X="32" Y="32">~T_Notice1</Text>
+		<Text ImageId="Notice" Color="rgba(255,255,255,255)" X="32" Y="64">~T_Notice2</Text>
+		<Text ImageId="Notice" Color="rgba(255,255,255,255)" X="32" Y="96">~T_Notice3</Text>
+		<Text ImageId="Notice" Color="rgba(255,255,255,255)" X="32" Y="128">~T_Notice4</Text>
+	
+	<!-- Top border -->
+	<Image Src="Data\Textures\UI\TopBorder.png" X="0" Y="0" W="Maximum" H="45"/>
+	<Image Src="Data\Textures\UI\TopBorder2.png" X="Maximum" Y="0" W="36" H="45"/>
+	
+	<!-- Center -->
+	<Image Id="MainMenuPanel" Src="Data\Textures\UI\MainMenuPanel.png" X="|-256" Y="Center" W="162" H="432"/>
+		
+		<!-- Button -->
+		<Image ImageId="MainMenuPanel" Id="MainMenuButton1" Src="Data\Textures\UI\Button.png" X="0" Y="160" W="162" H="32"/>
+		<Button ImageId="MainMenuButton1" Num="1" Event="!MainMenuNewGame0" Src="Data\Textures\UI\None.png" X="0" Y="0" W="162" H="32"/>
+		<Text   ImageId="MainMenuButton1" Color="rgba(255,255,255,255)" X="10|28" Y="8|28">1</Text>
+		<Text   ImageId="MainMenuButton1" Color="rgba(255,255,255,255)" X="35|156" Y="4|28">~B_NewGame</Text>
+		
+		<!-- Button -->
+		<Image ImageId="MainMenuPanel" Id="MainMenuButton2" Src="Data\Textures\UI\Button.png" X="0" Y="240" W="162" H="32"/>
+		<Button ImageId="MainMenuButton2" Num="2" Event="$MainMenuSettingsGame" Src="Data\Textures\UI\None.png" X="0" Y="0" W="162" H="32"/>
+		<Text   ImageId="MainMenuButton2" Color="rgba(255,255,255,255)" X="9|28" Y="8|28">2</Text>
+		<Text   ImageId="MainMenuButton2" Color="rgba(255,255,255,255)" X="35|156" Y="4|28">~B_Settings</Text>
+		
+		<!-- Button -->
+		<Image ImageId="MainMenuPanel" Id="MainMenuButton3" Src="Data\Textures\UI\Button.png" X="0" Y="320" W="162" H="32"/>
+		<Button ImageId="MainMenuButton3" Num="3" Event="$MainMenuAuthors" Src="Data\Textures\UI\None.png" X="0" Y="0" W="162" H="32"/>
+		<Text   ImageId="MainMenuButton3" Color="rgba(255,255,255,255)" X="9|28" Y="8|28">3</Text>
+		<Text   ImageId="MainMenuButton3" Color="rgba(255,255,255,255)" X="35|156" Y="4|28">~B_Authors</Text>
+		
+		<!-- Button -->
+		<Image ImageId="MainMenuPanel" Id="MainMenuButton4" Src="Data\Textures\UI\Button.png" X="0" Y="400" W="162" H="32"/>
+		<Button ImageId="MainMenuButton4" Num="4" Event="!Halt" Message="1" Src="Data\Textures\UI\None.png" X="0" Y="0" W="162" H="32"/>
+		<Text   ImageId="MainMenuButton4" Color="rgba(255,255,255,255)" X="10|28" Y="8|28">4</Text>
+		<Text   ImageId="MainMenuButton4" Color="rgba(255,255,255,255)" X="35|156" Y="4|28">~B_Quit</Text>
+	
+	<!-- Bottom border -->
+	<Image Src="Data\Textures\UI\BottomBorder.png" X="0" Y="Maximum" W="Maximum" H="45"/>
+		<!-- Demo version -->
+		<Image Id="DemoVersion" Src="Data\Textures\UI\DemoVersion.png" X="Maximum" Y="Maximum" W="148" H="38"/>
+		<Text  ImageId="DemoVersion" Spec="Version" Color="rgba(255,255,255,255)" X="6" Y="-34">~T_Version</Text>
+		<!-- FPS -->
+		<Text ImageId="DemoVersion" Spec="FPS" Color="rgba(103,220,17,255)" X="6" Y="-54">~T_FPS</Text>
+		
+</Data>

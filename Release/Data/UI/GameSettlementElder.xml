@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="Center" Y="224" Width="411" Height="396" FixedPosition="0"/>
+			
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\SettlementDiplo.png" X="0" Y="0" W="411" H="396"/>
+		<!-- Window name -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="6|383" Y="6|25">~T_Elder</Text>
+		<!-- Window exit -->
+		<Button ImageId="Window" Event="!Close" Src="Data\Textures\UI\None.png" X="388" Y="6" W="17" H="19"/>
+		<!-- Window background -->
+		<Gif Id="GifBackground" ImageId="Window" Src="Data\Textures\UI\SettlementElder0.png;" Delay="25" X="7" Y="32" W="396" H="106"/>
+		<!-- Window -->
+			<Text   ImageId="Window" Spec="SettlementArmy" Color="rgba(255,255,255,255)" X="6|97" Y="140|159">0/0</Text>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="164|339" Y="140|159">~T_SettlementArmy</Text>
+			<Button ImageId="Window" Event="!SettlementArmyPlus5" Src="Data\Textures\UI\None.png" X="98" Y="140" W="34" H="19"/>
+			<Button ImageId="Window" Event="!SettlementArmyPlus1" Src="Data\Textures\UI\None.png" X="133" Y="140" W="30" H="19"/>
+			<Button ImageId="Window" Event="!SettlementArmyMinus5" Src="Data\Textures\UI\None.png" X="340" Y="140" W="34" H="19"/>
+			<Button ImageId="Window" Event="!SettlementArmyMinus1" Src="Data\Textures\UI\None.png" X="375" Y="140" W="30" H="19"/>
+</Data>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+
+	<!-- Soundtracks -->
+	<Soundtrack Source="Data\Audios\Soundtrack\SeanMcRoberts0.ogg" />
+	<Soundtrack Source="Data\Audios\Soundtrack\SeanMcRoberts1.ogg" />
+	<Soundtrack Source="Data\Audios\Soundtrack\SeanMcRoberts2.ogg" />
+	<Soundtrack Source="Data\Audios\Soundtrack\SeanMcRoberts3.ogg" />
+	<Soundtrack Source="Data\Audios\Soundtrack\SeanMcRoberts4.ogg" />
+	<Soundtrack Source="Data\Audios\Soundtrack\SeanMcRoberts5.ogg" />
+	<Soundtrack Source="Data\Audios\Soundtrack\SeanMcRoberts6.ogg" />
+	<Soundtrack Source="Data\Audios\Soundtrack\SeanMcRoberts7.ogg" />
+	<Soundtrack Source="Data\Audios\Soundtrack\SeanMcRoberts8.ogg" />
+	<Soundtrack Source="Data\Audios\Soundtrack\SeanMcRoberts9.ogg" />
+	
+	<Soundtrack Source="Data\Audios\Soundtrack\denton0.ogg" />
+	<Soundtrack Source="Data\Audios\Soundtrack\denton1.ogg" />
+	<Soundtrack Source="Data\Audios\Soundtrack\denton2.ogg" />
+	
+	<Soundtrack Source="Data\Audios\Soundtrack\ogyrec0.ogg" />
+	
+	<!-- Sounds -->
+	<Sound Source="Data\Audios\Sound\MouseClick0.ogg" />
+	
+	<Sound Source="Data\Audios\Sound\ButtonClick0.ogg" />
+	<Sound Source="Data\Audios\Sound\ButtonClick1.ogg" />
+	
+	<Sound Source="Data\Audios\Sound\Settlement0.ogg" />
+	
+	<Sound Source="Data\Audios\Sound\Market0.ogg" />
+	
+	<Sound Source="Data\Audios\Sound\Tavern0.ogg" />
+	<Sound Source="Data\Audios\Sound\Tavern1.ogg" />
+	<Sound Source="Data\Audios\Sound\Tavern2.ogg" />
+	
+	<Sound Source="Data\Audios\Sound\Buy0.ogg" />
+	<Sound Source="Data\Audios\Sound\Buy1.ogg" />
+	<Sound Source="Data\Audios\Sound\Buy2.ogg" />
+	<Sound Source="Data\Audios\Sound\Buy3.ogg" />
+	<Sound Source="Data\Audios\Sound\Buy4.ogg" />
+	
+	<Sound Source="Data\Audios\Sound\Elder0.ogg" />
+	<Sound Source="Data\Audios\Sound\Elder1.ogg" />
+	<Sound Source="Data\Audios\Sound\Elder2.ogg" />
+	
+	<Sound Source="Data\Audios\Sound\Barn0.ogg" />
+	<Sound Source="Data\Audios\Sound\Barn1.ogg" />
+	
+	<Sound Source="Data\Audios\Sound\Sawmill0.ogg" />
+	<Sound Source="Data\Audios\Sound\Sawmill1.ogg" />
+	
+	<Sound Source="Data\Audios\Sound\Build0.ogg" />
+	<Sound Source="Data\Audios\Sound\Build1.ogg" />
+	<Sound Source="Data\Audios\Sound\Build2.ogg" />
+	
+	<Sound Source="Data\Audios\Sound\ForestCut0.ogg" />
+	<Sound Source="Data\Audios\Sound\ForestCut1.ogg" />
+	<Sound Source="Data\Audios\Sound\ForestCut2.ogg" />
+	<Sound Source="Data\Audios\Sound\ForestCutEnd0.ogg" />
+	<Sound Source="Data\Audios\Sound\ForestCutEnd1.ogg" />
+	
+	<Sound Source="Data\Audios\Sound\UnitDie0.ogg" />
+	<Sound Source="Data\Audios\Sound\UnitDie1.ogg" />
+
+</Data>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="Center" Y="224" Width="512" Height="404" FixedPosition="0"/>
+			
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\SettlementTrade.png" X="0" Y="0" W="512" H="404"/>
+		<!-- Window name -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="6|483" Y="6|25">~T_Market</Text>
+		<!-- Window exit -->
+		<Button ImageId="Window" Event="!Close" Src="Data\Textures\UI\None.png" X="489" Y="6" W="17" H="19"/>
+		<!-- Window background -->
+		<Gif   Id="GifBackground" ImageId="Window" Src="Data\Textures\UI\SettlementMarket0.png;" Delay="40" X="7" Y="32" W="498" H="109"/>
+		<!-- Items -->
+		<Image Id="TradeUnit0" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="7"  Y="144" W="64" H="64"/>
+			<Button ImageId="TradeUnit0" Event="!TradeUnit0" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<Image Id="TradeUnit1" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="70"  Y="144" W="64" H="64"/>
+			<Button ImageId="TradeUnit1" Event="!TradeUnit1" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<Image Id="TradeUnit2" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="133" Y="144" W="64" H="64"/>
+			<Button ImageId="TradeUnit2" Event="!TradeUnit2" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<Image Id="TradeUnit3" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="195" Y="144" W="64" H="64"/>
+			<Button ImageId="TradeUnit3" Event="!TradeUnit3" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+			
+		<Image Id="TradeUnit4" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="7"  Y="208" W="64" H="64"/>
+			<Button ImageId="TradeUnit4" Event="!TradeUnit4" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<Image Id="TradeUnit5" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="70"  Y="208" W="64" H="64"/>
+			<Button ImageId="TradeUnit5" Event="!TradeUnit5" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<Image Id="TradeUnit6" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="133" Y="208" W="64" H="64"/>
+			<Button ImageId="TradeUnit6" Event="!TradeUnit6" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<Image Id="TradeUnit7" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="195" Y="208" W="64" H="64"/>
+			<Button ImageId="TradeUnit7" Event="!TradeUnit7" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		
+		<Image Id="TradeUnit8"  ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="7"  Y="272" W="64" H="64"/>
+			<Button ImageId="TradeUnit8" Event="!TradeUnit8" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<Image Id="TradeUnit9" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="70"  Y="272" W="64" H="64"/>
+			<Button ImageId="TradeUnit9" Event="!TradeUnit9" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<Image Id="TradeUnit10" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="133" Y="272" W="64" H="64"/>
+			<Button ImageId="TradeUnit10" Event="!TradeUnit10" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<Image Id="TradeUnit11" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="195" Y="272" W="64" H="64"/>
+			<Button ImageId="TradeUnit11" Event="!TradeUnit11" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+
+		<Image Id="TradeUnit12" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="7"  Y="336" W="64" H="64"/>
+			<Button ImageId="TradeUnit12" Event="!TradeUnit12" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<Image Id="TradeUnit13" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="70"  Y="336" W="64" H="64"/>
+			<Button ImageId="TradeUnit13" Event="!TradeUnit13" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<Image Id="TradeUnit14" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="133" Y="336" W="64" H="64"/>
+			<Button ImageId="TradeUnit14" Event="!TradeUnit14" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<Image Id="TradeUnit15" ImageId="Window" Src="Data\Textures\Game\Items\None.png" X="195" Y="336" W="64" H="64"/>
+			<Button ImageId="TradeUnit15" Event="!TradeUnit15" Src="Data\Textures\UI\None.png" X="0" Y="0" W="64" H="64"/>
+		<!-- Trade Pointer -->
+		<Gif   Id="TradePointer" ImageId="Window" Src="Data\Textures\UI\TradePointer0.png;Data\Textures\UI\TradePointer1.png;Data\Textures\UI\TradePointer2.png;" Delay="20" X="7" Y="144" W="64" H="64"/>		
+		<!-- Unit information -->
+		<Text ImageId="Window" Color="rgba(255,255,255,255)" X="280|382" Y="156|187">~T_TradeName</Text>
+			<Text ImageId="Window" Spec="TradeName" Color="rgba(255,255,255,255)" X="383|485" Y="156|187">~T_None</Text>
+		<Text ImageId="Window" Color="rgba(255,255,255,255)" X="280|382" Y="188|219">~T_TradeClass</Text>
+			<Text ImageId="Window" Spec="TradeClass" Color="rgba(255,255,255,255)" X="383|485" Y="188|219">~T_None</Text>
+		<Text ImageId="Window" Color="rgba(255,255,255,255)" X="280|382" Y="220|251">~T_TradeCost</Text>
+			<Text ImageId="Window" Spec="TradeCost" Color="rgba(255,255,255,255)" X="383|485" Y="220|251">~T_None</Text>
+		<Text ImageId="Window" Color="rgba(255,255,255,255)" X="280|382" Y="252|283">~T_TradeSize</Text>
+			<Text ImageId="Window" Spec="TradeSize" Color="rgba(255,255,255,255)" X="383|485" Y="252|283">~T_None</Text>
+		<Text ImageId="Window" Color="rgba(255,255,255,255)" X="280|382" Y="284|314">~T_TradeDescription</Text>
+			<Text ImageId="Window" Spec="TradeDescription" Color="rgba(255,255,255,255)" X="383|485" Y="284|314">~T_None</Text>
+		<!-- Trade Buttons -->
+		<Button ImageId="Window" Event="!SellUnit" Src="Data\Textures\UI\None.png" X="278" Y="363" W="87" H="22"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="279|366" Y="364|386">~B_Sell</Text>
+		<Button ImageId="Window" Event="!BuyUnit" Src="Data\Textures\UI\None.png" X="399" Y="363" W="87" H="22"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="400|487" Y="364|386">~B_Buy</Text>
+		
+</Data>

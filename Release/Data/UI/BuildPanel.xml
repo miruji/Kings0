@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="Maximum" Y="Center" Width="197" Height="476" FixedPosition="1" Layer="1"/>
+
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\BuildPanel.png" X="0" Y="0" W="197" H="476"/>
+		<!-- Window name -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="1|28" Y="436|461">~T_Tilde</Text>
+		<Button ImageId="Window" Event="!BuildMode" Src="Data\Textures\UI\None.png" X="0" Y="429" W="46" H="32"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="46|197" Y="430|461">~T_Build</Text>
+		<!-- Window -->
+			<!-- 1 -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="4" Y="1|15">~B_BuildPanel1</Text>
+			<Button ImageId="Window" Event="!BarnBuild" Src="Data\Textures\UI\None.png" X="161" Y="1" W="35" H="35"/>
+			
+			<!-- 2 -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="4" Y="40|54">~B_BuildPanel2</Text>
+			<Button ImageId="Window" Event="!SawmillBuild" Src="Data\Textures\UI\None.png" X="161" Y="40" W="35" H="35"/>
+			
+			<!-- 3 -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="4" Y="79|93">~B_BuildPanel3</Text>
+			<Button ImageId="Window" Event="!SuburbBuild" Src="Data\Textures\UI\None.png" X="161" Y="79" W="35" H="35"/>
+			
+			<!-- 4 -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="4" Y="118|132">~B_BuildPanel4</Text>
+			<Button ImageId="Window" Event="!FieldBuild" Src="Data\Textures\UI\None.png" X="161" Y="118" W="35" H="35"/>
+			
+			<!-- 5 -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="4" Y="157|171">~B_BuildPanel5</Text>
+			<Button ImageId="Window" Event="!PastureBuild" Src="Data\Textures\UI\None.png" X="161" Y="157" W="35" H="35"/>
+			
+			<!-- 6 -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="4" Y="196|210">~B_BuildPanel6</Text>
+			<Button ImageId="Window" Event="!FisheriesBuild" Src="Data\Textures\UI\None.png" X="161" Y="196" W="35" H="35"/>
+			
+			<!-- 7 -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="4" Y="235|249">~B_BuildPanel7</Text>
+			<Button ImageId="Window" Event="!WallBuild" Src="Data\Textures\UI\None.png" X="161" Y="235" W="35" H="35"/>
+			
+			<!-- 8 -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="4" Y="274|288">~B_BuildPanel8</Text>
+			<Button ImageId="Window" Event="!TowerBuild" Src="Data\Textures\UI\None.png" X="161" Y="274" W="35" H="35"/>
+			
+			<!-- 9 -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="4" Y="313|327">~B_BuildPanel9</Text>
+			<Button ImageId="Window" Event="!CastleBuild" Src="Data\Textures\UI\None.png" X="161" Y="313" W="35" H="35"/>
+			
+			<!-- 0 -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="4" Y="352|366">~B_BuildPanel10</Text>
+			<Button ImageId="Window" Event="!DomainBuild" Src="Data\Textures\UI\None.png" X="161" Y="352" W="35" H="35"/>
+			
+			<!-- 10 -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="4" Y="391|405">~B_BuildPanel11</Text>
+			<Button ImageId="Window" Event="!PlunderBuild" Src="Data\Textures\UI\None.png" X="161" Y="391" W="35" H="35"/>
+</Data>

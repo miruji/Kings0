@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="0" Y="Center" Width="60" Height="280" FixedPosition="1" Layer="1"/>
+
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\LeftBlockTowerMinimize0.png" X="0" Y="0" W="60" H="280"/>
+		<!-- Description panel -->
+		<Image ImageId="Window" Src="Data\Textures\UI\LeftBlockTowerMinimizeIncome.png" X="0" Y="0" W="37" H="192"/>
+		<!-- Hide button -->
+		<Button ImageId="Window" Event="!Tab" Src="Data\Textures\UI\None.png" X="1" Y="192" W="54" H="32"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="18|54" Y="192|223">Tab</Text>
+		<!-- Buttons -->
+		<Button ImageId="Window" Num="1" Event="$GameSettlementHall" Src="Data\Textures\UI\None.png" X="1" Y="230" W="34" H="34"/>
+		<Text   Id="MapPointer" ImageId="Window" Color="rgba(255,255,255,255)" X="50|59" Y="234|260">1</Text>
+		
+</Data>

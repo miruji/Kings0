@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="100" Y="Center" Width="603" Height="481" FixedPosition="1"/>
+
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\MainMenuNewGame0.png" X="0" Y="0" W="603" H="481"/>
+		<!-- Window name -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="5|566" Y="5|26">~T_NewGameWindow</Text>
+		<!-- Window exit -->
+		<Button ImageId="Window" Event="!Close" Src="Data\Textures\UI\None.png" X="575" Y="5" W="23" H="21"/>
+		
+		<!-- Main -->
+			<TextWrapped ImageId="Window" X="22" Y="32" W="559" H="417">~TA_NewGame0</TextWrapped>
+			
+		<!-- More buttons -->
+		<Button ImageId="Window" Event="@Guide0" Src="Data\Textures\UI\None.png" X="109" Y="455" W="93" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="109|202" Y="455|476">~B_Guide</Text>
+		
+		<Button ImageId="Window" Event="!MainMenuNewGame1" Src="Data\Textures\UI\None.png" X="503" Y="455" W="95" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="503|596" Y="455|476">~B_Next</Text>
+		
+</Data>

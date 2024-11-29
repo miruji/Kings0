@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<!-- Basic -->
+	<Init Name="FFA10" Size="54x54" Teams="10"/>
+	<Init Name="FFA7" Size="42x42" Teams="7"/>
+	<Init Name="FFA6" Size="42x42" Teams="6"/>
+	<Init Name="FFA4" Size="30x30" Teams="4"/>
+	<Init Name="FFA3" Size="30x30" Teams="3"/>
+	<!-- Guide -->
+	<Init Name="Guide" Size="20x20" Teams="2"/>
+	
+	<Init Name="Test1" Size="10x10" Teams="1"/>
+</Data>

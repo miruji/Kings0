@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="0" Y="Center" Width="97" Height="280" FixedPosition="1" Layer="1"/>
+
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\LeftBlockSawmillMinimize0.png" X="0" Y="0" W="97" H="280"/>
+		<!-- Description panel -->
+		<Image ImageId="Window" Src="Data\Textures\UI\LeftBlockSawmillMinimizeIncome.png" X="0" Y="0" W="37" H="192"/>
+		<!-- Hide button -->
+		<Button ImageId="Window" Event="!Tab" Src="Data\Textures\UI\None.png" X="0" Y="191" W="54" H="32"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="18|53" Y="192|222">Tab</Text>
+		<!-- Buttons -->
+		<Button ImageId="Window" Num="10" Event="!Shift" Src="Data\Textures\UI\None.png" X="40" Y="233" W="57" H="28"/>
+		<Text   Id="MapPointer" ImageId="Window" Color="rgba(255,255,255,255)" X="41|106" Y="234|260">Shift</Text>
+		
+</Data>

@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Language -->
+<!-- 
+	Id = [Key_] + [Name] 
+	T_   -  Text 
+	B_   -  Button 
+	TA_  -  Text area 
+ -->
+<Data>
+	<Text Id="T_" ></Text>
+	<Text Id="T_: " ></Text>
+	<Text Id="T_Tilde" >~</Text>
+
+	<Text Id="T_Version" >Ver. 000000</Text>
+	<Text Id="T_FPS" >FPS</Text>
+
+	<Text Id="T_Notice1" >Deze game is in Early Access</Text>
+	<Text Id="T_Notice2" >Veel functies zijn in ontwikkeling</Text>
+	<Text Id="T_Notice3" >Updates worden geleidelijk vrijgegeven</Text>
+	<Text Id="T_Notice4" >Kwaliteit is belangrijk voor ons</Text>
+
+	<Text Id="T_NeedYes" >ja</Text>
+	<Text Id="T_NeedNo" >nee</Text>
+
+	<Text Id="T_Message" >Bericht</Text>
+	<Text Id="T_ActiveMessage" >Actief bericht</Text>
+	<Text Id="T_MessageToMainMenu" >Bericht: Naar hoofdmenu</Text>
+	<Text Id="T_MessageHalt" >Bericht: Afsluiten</Text>
+	<Text Id="T_MessageSettlementPlunder" >Bericht: Plunder</Text>
+	<Text Id="T_MessageMainMenuSettingsReset" >Bericht: Reset</Text>
+	<Text Id="T_MessageMainMenuSettingsApply" >Bericht: Toepassen</Text>
+	<Text Id="T_MessageEnemyAttack" >Bericht: aanval</Text>
+	<Text Id="T_MessageEnemyAttack0" >Bericht: Aanval 1</Text>
+	<Text Id="T_MessageEnemyAttack1" >Bericht: Attack 2</Text>
+	<Text Id="T_MessageEnemyAttack2" >Bericht: Attack 3</Text>
+	<Text Id="T_MessageEnemyAttack3" >Bericht: Attack 4</Text>
+	<Text Id="T_MessageEnemyAttack4" >Bericht: Attack 5</Text>
+	<Text Id="T_MessageEnemyAttack5" >Bericht: Attack 6</Text>
+	<Text Id="T_MessageEnemyAttack6" >Bericht: Attack 7</Text>
+
+	<Text Id="T_NewGame" >Nieuw spel</Text>
+	<Text Id="T_NewGameWindow" >Nieuw spel</Text>
+	<Text Id="T_NewGameGuide" >Gids</Text>
+	<Text Id="T_NewGameTeam1" >Team: 1 (zilver)</Text>
+	<Text Id="T_NewGameTeam2" >Team: 2 (paars)</Text>
+	<Text Id="T_NewGameTeam3" >Team: 3 (Oranje)</Text>
+	<Text Id="T_NewGameTeam4" >Team: 4 (geel)</Text>
+	<Text Id="T_NewGameTeam5" >Team: 5 (Groen)</Text>
+	<Text Id="T_NewGameTeam6" >Team: 6 (Turkoois)</Text>
+	<Text Id="T_NewGameTeam7" >Team: 7 (blauw)</Text>
+	<Text Id="T_NewGameTeam8" >Team: willekeurig</Text>
+		
+	<Text Id="T_ThereNoWay" >Dat kan niet</Text>
+	<Text Id="T_ThereIsNoPlace" >Er is geen plaats</Text>
+	<Text Id="T_NotOurLand" >Niet ons land</Text>
+
+	<Text Id="T_EnemyTerritoryCaptured" >Vijandelijk gebied veroverd</Text>
+	<Text Id="T_AllyTerritoryCaptured" >Ally-territorium veroverd</Text>
+	<Text Id="T_NeutralTerritoryCaptured" >Neutraal territorium veroverd</Text>
+	<Text Id="T_TerritoryOccupied" >Territorium bezet</Text>
+	<Text Id="T_ThisTerritoryIsAlreadyOurs" >Dit gebied is al van ons</Text>
+	<Text Id="T_TooFarFromTheDomain" >Te ver van het domein</Text>
+
+	<Text Id="T_ImpossibleToDestroy" >Onmogelijk te vernietigen</Text>
+	<Text Id="T_NothingToDestroy" >Niets te vernietigen</Text>
+
+	<Text Id="T_TooFarFromTheBoundaries" >Te ver van de grenzen</Text>
+
+	<Text Id="T_CanBeBuiltOnLandOrRiver" >Kan op land of rivier worden gebouwd</Text>
+	<Text Id="T_CanBeBuiltOnLandOrRiver2" >Kan worden gebouwd op het land of op een rivier in het bos</Text>
+	<Text Id="T_CanOnlyBeBuiltOnWater" >Kan alleen op water worden gebouwd</Text>
+
+	<Text Id="T_NewGameNation" >Cultuur</Text>
+	<Text Id="T_NewGameNation0" >Steppe</Text>
+	<Text Id="T_NewGameNation1" >Water</Text>
+	<Text Id="T_NewGameNation2" >Sedentair</Text>
+	<Text Id="T_NewGameNation3" >Berg</Text>
+	<Text Id="T_NewGameNationBonus0" >River kruising</Text>
+	<Text Id="T_NewGameNationBonus1" >Oversteken van rivieren en water</Text>
+	<Text Id="T_NewGameNationBonus2" >Bosoversteek</Text>
+	<Text Id="T_NewGameNationBonus3" >Bergoversteek</Text>
+
+	<Text Id="T_DiplomacyTeam0" >Team 0: (Geen)</Text>
+	<Text Id="T_DiplomacyTeam1" >Team 1: (Zilver)</Text>
+	<Text Id="T_DiplomacyTeam2" >Team 2: (Paars)</Text>
+	<Text Id="T_DiplomacyTeam3" >Team 3: (Oranje)</Text>
+	<Text Id="T_DiplomacyTeam4" >Team 4: (Geel)</Text>
+	<Text Id="T_DiplomacyTeam5" >Team 5: (Groen)</Text>
+	<Text Id="T_DiplomacyTeam6" >Team 6: (Turkoois)</Text>
+	<Text Id="T_DiplomacyTeam7" >Team 7: (Blauw)</Text>
+	<Text Id="T_DiplomacyAttitude" >Houding: </Text>
+		
+	<Text Id="T_SettingsWindow" >Instellingen: Venster</Text>
+	<Text Id="T_SettingsSound" >Instellingen: Geluid</Text>
+	<Text Id="T_SettingsGame" >Instellingen: Spel</Text>
+	<Text Id="T_SettingsControl" >Instellingen: Controle</Text>
+
+	<Text Id="T_Fullscreen" >Volledig scherm</Text>
+	<Text Id="T_VerticalSensitivity" >Verticale gevoeligheid</Text>
+	<Text Id="T_VideoMode" >Videomodus</Text>
+	<Text Id="T_VideoMode2" >Videomodus:</Text>
+	<Text Id="T_FramerateLimit" >Frameratelimiet</Text>
+	<Text Id="T_FramerateLimit2" >Frameraatlimiet:</Text>
+	<Text Id="T_Soundtrack" >Achtergrondbegeleiding</Text>
+	<Text Id="T_Soundtrack2" >Achtergrondbegeleiding:</Text>
+	<Text Id="T_Soundtrack3" >Muziek</Text>
+	<Text Id="T_Soundtrack4" >Geluidseffecten</Text>
+
+	<Text Id="T_Language" >Taal</Text>
+	<Text Id="T_InterfaceLanguage" >Interfacetaal:</Text>
+
+	<Text Id="T_WindowMode" >Venstermodus</Text>
+	<Text Id="T_WindowMode2" >Venstermodus:</Text>
+	<Text Id="T_WindowModeWindowed" >Venster</Text>
+	<Text Id="T_WindowModeFullscreenWindowed" >Volledig venster</Text>
+	<Text Id="T_WindowModeFullscreen" >Volledig scherm</Text>
+
+	<Text Id="T_Music" >Muziek</Text>
+	<Text Id="T_RandomMusic" >Willekeurige muziek</Text>
+	<Text Id="T_RepeatMusic" >Muziek herhalen</Text>
+	<Text Id="T_NowPlaying" >Nu aan het spelen: </Text>
+
+	<Text Id="T_Ally" >Ally</Text>
+	<Text Id="T_Peace" >Vrede</Text>
+	<Text Id="T_AtWar" >In oorlog</Text>
+	<Text Id="T_Relatives" >Verwanten</Text>
+
+	<Text Id="T_Settlement" >Settlement</Text>
+	<Text Id="T_Castle" >Kasteel</Text>
+	<Text Id="T_Field" >Veld</Text>
+	<Text Id="T_Suburb" >Voorstad</Text>
+	<Text Id="T_Pasture" >Weiland</Text>
+	<Text Id="T_Sawmill" >Zagmolen</Text>
+	<Text Id="T_Fisheries" >Visserij</Text>
+	<Text Id="T_Wall" >Muur</Text>
+	<Text Id="T_Tower" >Toren</Text>
+	<Text Id="T_Barn" >Schuur</Text>
+
+	<Text Id="T_Size" >Grootte</Text>
+	<Text Id="T_TradeSize" >Maat:</Text>
+	<Text Id="T_Tax" >Belasting</Text>
+	<Text Id="T_Damage" >Schade</Text>
+	<Text Id="T_Protection" >Bescherming</Text>
+	<Text Id="T_Condition" >Conditie</Text>
+
+	<Text Id="T_TradeName" >Naam:</Text>
+	<Text Id="T_TradeClass" >Klasse:</Text>
+	<Text Id="T_TradeCost" >Kosten:</Text>
+	<Text Id="T_TradeDescription" >Beschrijving:</Text>
+
+	<Text Id="T_Description" >Beschrijving</Text>
+	<Text Id="T_SettlementDescription1_1" >Het gebouw bevindt zich</Text>
+	<Text Id="T_SettlementDescription1_2" >Kan bouwen</Text>
+	<Text Id="T_SettlementDescription1_3" >Onmogelijk om te bouwen</Text>
+	<Text Id="T_SettlementDescription1_4" >Buitenlands grondgebied</Text>
+
+	<Text Id="T_SettlementDescription2_1" >Bronnen:</Text>
+
+	<Text Id="T_SettlementDescription3_1" >Bos: </Text>
+	<Text Id="T_SettlementDescription3_2" >Er is hier niets</Text>
+
+	<Text Id="T_SettlementDescription4_1" >Domein: </Text>
+	<Text Id="T_Team0" >Geen</Text>
+	<Text Id="T_Team1" >Rand</Text>
+
+	<Text Id="T_Build" >Build</Text>
+		
+	<Text Id="B_BuildPanel1" >1: Schuur</Text>
+	<Text Id="B_BuildPanel2" >2: Zagerij</Text>
+	<Text Id="B_BuildPanel3" >3: Voorstad</Text>
+	<Text Id="B_BuildPanel4" >4: Veld</Text>
+	<Text Id="B_BuildPanel5" >5: Weiland</Text>
+	<Text Id="B_BuildPanel6" >6: Visserij</Text>
+	<Text Id="B_BuildPanel7" >7: Muur</Text>
+	<Text Id="B_BuildPanel8" >8: Toren</Text>
+	<Text Id="B_BuildPanel9" >9: Kasteel</Text>
+	<Text Id="B_BuildPanel10" >CTRL: Domein</Text>
+	<Text Id="B_BuildPanel11" >0: Plunderen</Text>
+
+	<Text Id="T_Gold" >Goud</Text>
+	<Text Id="T_Food" >Eten</Text>
+	<Text Id="T_Wood" >Hout</Text>
+	<Text Id="T_Army" >Leger</Text>
+
+	<Text Id="T_Berries" >Bessen</Text>
+	<Text Id="T_Bread" >Brood</Text>
+	<Text Id="T_Fruit" >Fruit</Text>
+	<Text Id="T_Hen" >Kip</Text>
+	<Text Id="T_Honey" >Honing</Text>
+	<Text Id="T_Meat" >Vlees</Text>
+	<Text Id="T_Millet" >Gerst</Text>
+	<Text Id="T_Salt" >Zout</Text>
+	<Text Id="T_Apple" >Appels</Text>
+	<Text Id="T_Fish" >Vis</Text>
+	<Text Id="T_Corn" >Maïs</Text>
+	<Text Id="T_Cucumber" >Komkommers</Text>
+	<Text Id="T_Banana" >Bananen</Text>
+
+	<Text Id="T_Speer" >Speer</Text>
+	<Text Id="T_Sword" >Zwaard</Text>
+	<Text Id="T_Archer" >Boogschutter</Text>
+	<Text Id="T_Crossbow" >Kruisboog</Text>
+	<Text Id="T_HorseSpear" >Paardenspeer</Text>
+	<Text Id="T_HorseSword" >Paardzwaard</Text>
+	<Text Id="T_BatteringRam" >Slagram</Text>
+	<Text Id="T_SiegeTower" >Belegeringstoren</Text>
+
+	<Text Id="T_Hall" >Zaal</Text>
+	<Text Id="T_Elder" >Ouderling</Text>
+	<Text Id="T_Prison" >Gevangenis</Text>
+	<Text Id="T_Market" >Markt</Text>
+	<Text Id="T_Smithy" >Smidse</Text>
+	<Text Id="T_Tavern" >Taverne</Text>
+	<Text Id="T_Arena" >Arena</Text>
+	<Text Id="T_Squad" >Squad</Text>
+
+	<Text Id="T_None" >Geen</Text>
+	<Text Id="T_Water" >Water</Text>
+	<Text Id="T_Land" >Land</Text>
+	<Text Id="T_River" >Rivier</Text>
+	<Text Id="T_Forest" >Bos</Text>
+	<Text Id="T_ForestMountain" >Bosberg</Text>
+	<Text Id="T_Mountain" >Berg</Text>
+	<Text Id="B_Cut" >Knippen</Text>
+
+	<Text Id="T_Name" >Naam</Text>
+	<Text Id="T_Log" >Log</Text>
+
+	<Text Id="T_Population" >Bevolking</Text>
+
+	<Text Id="T_Technology" >Technologie</Text>
+	<Text Id="T_Diplomacy" >Diplomacy</Text>
+	<Text Id="B_DiplomacyNone" >Diplomacy (Geen)</Text>
+
+	<Text Id="T_Technology0" >Technologie: beweging</Text>
+	<Text Id="T_Technology1" >Technologie: Gebouwen</Text>
+	<Text Id="T_Technology2" >Technologie: productie</Text>
+	<Text Id="T_Technology3" >Technologie: Stadhuis</Text>
+	<Text Id="T_Technology4" >Technologie: militair</Text>
+	<Text Id="T_Technology5" >Technologie: Apparatuur</Text>
+		
+	<Text Id="T_Movement" >Beweging</Text>
+	<Text Id="T_Buildings" >Gebouwen</Text>
+	<Text Id="T_Production" >Productie</Text>
+	<Text Id="T_TownHall" >Stadhuis</Text>
+	<Text Id="T_Military" >Militair</Text>
+	<Text Id="T_Equipment" >Apparatuur</Text>
+
+	<Text Id="B_Menu" >Menu</Text>
+
+	<Text Id="T_MapName" >Naam</Text>
+	<Text Id="T_MapSize" >Grootte</Text>
+	<Text Id="T_MapTeams" >Teams</Text>
+
+	<Text Id="T_Team" >Team</Text>
+	<Text Id="T_Map" >Kaart</Text>
+
+	<Text Id="T_MainMenuLoadGame">Spel laden</Text>
+	<Text Id="T_MainMenuSaveGame">Spel opslaan</Text>
+	<Text Id="B_Load">Laden</Text>
+	<Text Id="B_Save">Opslaan</Text>
+	<Text Id="B_Delete">Verwijderen</Text>
+	<Text Id="T_LoadGameDate">Datum: </Text>
+
+	<Text Id="B_BackToGame" >Terug naar spel</Text>
+	<Text Id="B_NewGame" >Nieuw spel</Text>
+	<Text Id="B_LoadGame" >Spel laden</Text>
+	<Text Id="B_SaveGame" >Spel opslaan</Text>
+	<Text Id="B_Multiplayer" >Multiplayer</Text>
+	<Text Id="B_Settings" >Instellingen</Text>
+	<Text Id="B_Authors" >Auteurs</Text>
+	<Text Id="B_ToMainMenu" >Naar hoofdmenu</Text>
+	<Text Id="B_Quit" >Sluiten</Text>
+
+	<Text Id="B_Window" >Venster</Text>
+	<Text Id="B_Sound" >Geluid</Text>
+	<Text Id="B_Game" >Game</Text>
+	<Text Id="B_Control" >Controle</Text>
+
+	<Text Id="B_Reset" >Reset</Text>
+	<Text Id="B_Apply" >Toepassen</Text>
+
+	<Text Id="B_Play" >Speel</Text>
+	<Text Id="B_Next" >Volgende</Text>
+	<Text Id="B_Back" >Terug</Text>
+	<Text Id="B_Cancel" >Annuleren</Text>
+	<Text Id="B_Continue" >Doorgaan</Text>
+	<Text Id="B_Close" >Sluiten</Text>
+
+	<Text Id="B_Castle" >Kasteel</Text>
+	<Text Id="B_Hall" >Zaal</Text>
+	<Text Id="B_Elder" >Ouderling</Text>
+	<Text Id="B_Prison" >Gevangenis</Text>
+	<Text Id="B_Market" >Markt</Text>
+	<Text Id="B_Smithy" >Smidse</Text>
+	<Text Id="B_Tavern" >Taverne</Text>
+	<Text Id="B_Arena" >Arena</Text>
+	<Text Id="B_Squad" >Squad</Text>
+		
+	<Text Id="T_Flag" >Vlag: </Text>
+	<Text Id="T_Nation" >Cultuur: </Text>
+
+	<Text Id="B_Log" >Log</Text>
+	<Text Id="T_Log" >Log</Text>
+
+	<Text Id="B_Buy" >Kopen</Text>
+	<Text Id="B_Sell" >Verkopen</Text>
+	<Text Id="B_Plunder" >Plunderen</Text>
+
+	<Text Id="T_BuildingsLimitExceeded" >Gebouwenlimiet overschreden</Text>
+	<Text Id="T_BuildingsLimit" >Gebouwenlimiet</Text>
+
+	<Text Id="B_Diplo" >Diplomacy</Text>
+	<Text Id="B_Inventory" >Inventory</Text>
+
+	<Text Id="B_Main" >Hoofd</Text>
+	<Text Id="B_Technology" >Technologie</Text>
+	<Text Id="B_Squad" >Squad</Text>
+	<Text Id="B_Diplomacy" >Diplomacy</Text>
+
+	<Text Id="T_Resources" >Bronnen</Text>
+	<Text Id="T_NeedResources" >Benodigd: </Text>
+
+	<Text Id="T_Terrain" >Terrein</Text>
+	<Text Id="T_Points" >Punten</Text>
+	<Text Id="T_1PointBuild" >+ 1 / build</Text>
+	<Text Id="T_3PointTurn" >+ 3 / draai</Text>
+
+	<Text Id="T_MessageTechnologyLearn" >Technologie leren</Text>
+	<Text Id="T_MessageNewWar" >Verklaar een oorlog</Text>
+	<Text Id="T_MessageAttack" >Val de vijand aan</Text>
+
+	<Text Id="T_PlantFoods" >Plantaardig voedsel</Text>
+	<Text Id="T_WaterFoods" >Watervoedsel</Text>
+	<Text Id="T_PastureFoods" >Weidevoer</Text>
+
+	<Text Id="T_SettlementArmy" >Settlement leger</Text>
+	<Text Id="T_CastleArmy" >Kasteelleger</Text>
+
+	<Text Id="T_GameUnitDestroyed" >Speleenheid vernietigd</Text>
+
+	<Text Id="T_EnemyDomain" >Vijand domein</Text>
+
+	<Text Id="B_Guide" >Gids</Text>
+
+	<Text Id="B_Create" >Maken</Text>
+	<Text Id="B_Connect" >Verbonden</Text>
+	<Text Id="T_Players" >Spelers</Text>
+	<Text Id="T_Empty" >Leeg</Text>
+	<Text Id="T_Place" >Plaats</Text>
+
+	<Text Id="T_MultiplayerConnect" >Multiplayer: verbinden</Text>
+	<Text Id="T_MultiplayerCreate" >Multiplayer: maken</Text>
+
+	<Text Id="B_Kick" >Kick</Text>
+	<Text Id="B_Add" >Toevoegen</Text>
+
+	<Text Id="T_Authors" >Auteurs</Text>
+		
+<Text Id="TA_Authors" >
+-- RAD team:;
+`* UncleSergy - Hoofdontwikkelaar en programmeur;
+`* Rotten - Hoofdartiest;
+`* ogyrec - Muzikant / Gamedesign;
+`* denton - Muzikant;
+;
+-- Speciale dank aan:;
+`* Sean McRoberts - Soundtrack;
+`* DronXD - Spelontwerper (2020);
+`* Fitzgerald RED - Gewoon een cool persoon;
+`* Degenen die helpen bij de ontwikkeling van het project!
+</Text>
+	
+<Text Id="TA_Message" >
+;
+Weet je zeker dat je door wilt gaan?
+</Text>
+		
+<Text Id="TA_SettingsControl" >
+* Algemeen:;
+`[ Pijlen] - Verplaats de gamecamera.;
+`[ +, -, Draai het muiswiel ] - Zoom in en uit op de camera.;
+`[ QEZC, WAXD, rechtermuisknop] - Verplaats het team van de speler. (De camera stelt onmiddellijk scherp op de ploeg.);
+`[ Shift ] - interactie met de cel.;
+`[ S, Enter, Druk op het muiswiel ] - Sla de huidige zet over.;
+`[ Linkermuisknop ] - Verplaats de aanwijzer van de gamekaart.;
+* Markeringen op de kaart:;
+`[ G ] - Toon of verberg het spelraster.;
+`[ P ] - Toon of verberg de eenheid van de speler.;
+`[ O ] - Toon of verberg eenheidseenheden van vijanden.;
+`[ B ] - Toon of verberg gebouwen van vijanden.;
+`[ R ] - Toon of verberg handelsroutes (wegen).;
+`[ M ] - Gebouwmarkeringen weergeven of verbergen.;
+`[ &lt; ] - Toon of verberg het eigendomsraster.;
+`[ &gt; ] - Toon of verberg het raster van mogelijke beweging.;
+`[ N ] - Toon of verberg de namen van objecten.;
+* Speciaal:;
+`[ F4 ] - Noodstop van het spel (onmiddellijk en zonder op te slaan).;
+`[ H ] - Toon of verberg de volledige game-interface. (niet in het hoofdmenu);
+`[ ~ ] - Toon of verberg het rechterpaneel.;
+`[ Tab ] - Toon of verberg het linkerdeelvenster.
+</Text>
+<Text Id="TA_NewGame0" >
+* Welkom bij het spel Kings0. Dit is onze eerste game in het strategiegenre.;
+;
+* Het is de moeite waard eraan te denken dat de game zal worden bijgewerkt. We luisteren ook aandachtig naar de meningen van de spelers, hun ideeën en suggesties, die we geleidelijk in de praktijk brengen.;
+* In het geval van bugs die met alle mogelijke middelen aan ons zijn geadresseerd. Dus na verloop van tijd zullen we het spel nog beter maken voor een comfortabel spel.;
+;
+* Op dit moment is alleen de modus voor één speler beschikbaar, waar geen eindes en taken zijn. In de nabije toekomst is het de bedoeling om verschillende versies van de multiplayer-game en -modi te maken.;
+* Bovendien zijn er hier geen opslagbestanden. We werken momenteel aan een betere versie van de game-engine met mod-ondersteuning.;
+;
+* Voordat je een nieuw bedrijf start, raden we je aan om vertrouwd te raken met de gids, waarin je wordt verteld over het spel en de basismechanica.;
+* Het spel is niet zo moeilijk, maar het heeft veel variaties en mechanica voor elk van de nieuwe campagnes. Daarom is het belangrijk om elk van uw beslissingen te overwegen.
+</Text>
+<Text Id="TA_Guide0" >
+Welkom bij de Kings0-gids, waar we je door de basisprincipes van gameplay en besturing leiden.;
+;
+Het spel heeft veel ontwikkelingspaden en is gebaseerd op strategie.;
+;
+Er zijn drie belangrijke manieren van ontwikkeling, zoals: economie, diplomatie en oorlog. Elk bedrijf is uniek en gebaseerd op je vaardigheden in het spelen en beheren van beschikbare mechanica.
+</Text>
+<Text Id="TA_Guide1" >
+Om het spel te winnen, moet je alle stadhuizen van de vijand en zijn hoofdpersoon vernietigen.;
+;
+Elk team heeft slechts één personage en een stadhuis, de veroverde gebouwen niet meegerekend. Om je team te ontwikkelen, moet je het gebied eromheen veroveren en ontwikkelen tijdens het spel.
+</Text>
+<Text Id="TA_Guide2" >
+De game bevat een bril die ondersteunende functies uitvoert, zoals: de studie van nieuwe technologieën, diplomatie en beweging op de gamekaart. Er zijn middelen aanwezig voor de bouw van gebouwen, geschenken en uitwisseling tussen andere teams. En er is ook je bevolking en je leger.;
+;
+Om meer punten of middelen te krijgen, moet je het gebied eromheen ontwikkelen. Ook wordt er een limiet gesteld aan sommige soorten hulpbronnen, die kunnen worden verhoogd door de bouw van bepaalde gebouwen.
+</Text>
+<Text Id="TA_Guide3" >
+Bewegen op de kaart gebeurt met de toetsen QEZC (diagonaal) en WAXD (zijkanten). Elk van je bewegingen op de kaart of andere interactie ermee vereist bewegingspunten, die elke nieuwe beurt in een bepaald aantal worden gegeven.;
+;
+Om de efficiëntie te verhogen, kun je wegen of speciale constructies bouwen die extra punten per beurt opleveren.
+</Text>
+<Text Id="TA_Guide4" >
+U kunt ook een bewegingsprobleem tegenkomen. Er is een bewegingszone in het spel, die is gemarkeerd met een zwart raster. Om het uit te breiden: verover meer gebieden, sluit allianties of verklaar oorlogen en bouw meer gebouwen.;
+;
+Zones werken ook samen met je bondgenoten en worden verwijderd wanneer hun domeingebouwen verloren gaan.;
+;
+Richtingspijlen rond je personage laten je de bewegingspaden zien.
+</Text>
+<Text Id="TA_Guide5" >
+Misschien is het je al opgevallen dat elk team ook zijn eigen territorium heeft, dat hierboven al werd genoemd. Je moet je domein uitbreiden voor diplomatiepunten om controle te krijgen over middelen en een plek voor toekomstige gebouwen. Er is geen andere manier om het te realiseren.;
+;
+Grenzen zijn te vinden aan de randen van de kaart die voorkomen dat jij en je tegenstanders het campagnegebied verlaten.
+</Text>
+<Text Id="TA_Guide6" >
+Nadat je controle over hulpbronnen hebt gekregen, kun je ze op verschillende manieren ontginnen. Dit gebeurt meestal handmatig of automatisch met behulp van gebouwen. Dit gebeurt meestal handmatig of automatisch met behulp van gebouwen. Een voorbeeld hiervan is ontbossing. Bij het bouwen van gebouwen kun je de hoeveelheid grondstoffen op de cel vergroten. Nadat de volledige hulpbron is uitgeput, wordt het gebouw vernietigd en komt de cel vrij voor verdere interactie.;
+;
+Het spel kan worden bestuurd vanaf verschillende soorten apparaten of rechtstreeks in het spelvenster zelf.
+</Text>
+<Text Id="TA_Guide7" >
+Als je te weinig middelen hebt, kun je ze kopen in de winkels van je nederzetting. Je kunt andere mechanica in het spel vinden in het linkerdeelvenster, evenals aanvullende informatie over gebouwen en terrein.;
+;
+In dit geval moet u letten op de hoeveelheid en het type goederen. Je kunt een product verkopen als er een overschot is en er goud voor krijgen.;
+;
+Hulpbronnen hebben een kans om te verschijnen en zijn gebonden aan het type terrein, wat kan leiden tot hun schaarste.
+</Text>
+<Text Id="TA_Guide8" >
+Laten we nu verder gaan met het vechtsysteem. Het vechtsysteem is een van de belangrijke taken van het spel en is direct afhankelijk van je beslissingen en de uitvoering ervan. Je moet goed letten op de locatie van de forten en het garnizoen erin, de loyaliteit van de bevolking.;
+;
+Oorlogscampagnes vergen ook veel investeringen en voorbereiding. Onderhoud uw voedselvoorraden, de hoeveelheid goud en de staat van uw land als geheel. De kleinste fouten kunnen leiden tot mislukking en volledige nederlaag.;
+;
+Het leger moet in de herberg worden gerekruteerd in ruil voor goud en je bevolking. De winnaar is degene met de meeste mensen in de ploeg.
+</Text>
+<Text Id="TA_Guide9" >
+Er zijn nog een paar aandachtspunten. Na het veroveren van het stadhuis en het vernietigen van de hoofdeenheid, wordt de speler als een verliezer beschouwd en wordt hij automatisch vernietigd. Bij het veroveren van een gebied staan gebouwen tot je beschikking en als je een verdedigingsconstructie verovert, kun je het veroveren of vernietigen.;
+;
+Rond verdedigingsstructuren zoals muren, torens, enz. is er een zone van markeringen, die het mogelijk maakt om alleen vanaf de diagonalen aan te vallen en op geen enkele andere manier, die ook kan worden gebruikt met de juiste verdediging of aanval.
+</Text>
+<Text Id="TA_Guide10" >
+Nu een beetje over technologie. Technologie stelt je in staat om nieuwe mechanica en kansen voor het spel te krijgen. Je kunt ze openen voor technologiepunten, die worden verzameld door de bevolking. Er zijn strikte takken die geleidelijk moeten worden onderzocht.;
+;
+De studie van sommige takken stelt de studie van andere uit. Bepaal daarom aan welke volgorde je je wilt houden en begin met het ontwikkelen van je beschaving.
+</Text>
+<Text Id="TA_Guide11" >
+Dat is alles wat je moest weten. In deze versie van het spel worden niet alle mechanica gebruikt, sommige worden nog afgerond of beginnen net te worden gemaakt. In de toekomst zullen er steeds meer mechanica zijn en we zijn van plan het spel realistischer, veelzijdiger en comfortabeler te maken voor spelers.;
+;
+In deze versie van het spel kun je het gebouw van de vijand niet verslaan of aanvallen, maar je kunt zijn territorium veroveren.
+;
+Daarnaast kun je spelen op een testmap voor 1v1-leren. Hoe je speelt, wordt alleen beperkt door je verbeeldingskracht. Succesvolle campagnes!
+</Text>
+<!-- End of file-->
+</Data>

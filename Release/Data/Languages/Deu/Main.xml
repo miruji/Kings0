@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Language -->
+<!-- 
+	Id = [Key_] + [Name] 
+	T_   -  Text 
+	B_   -  Button 
+	TA_  -  Text area 
+ -->
+<Data>
+	<Text Id="T_" ></Text>
+	<Text Id="T_: " ></Text>
+	<Text Id="T_Tilde" >~</Text>
+
+	<Text Id="T_Version" >Ver. 000000</Text>
+	<Text Id="T_FPS" >FPS</Text>
+	
+	<Text Id="T_Notice1" >Dieses Spiel befindet sich im Early Access</Text>
+	<Text Id="T_Notice2" >Viele Funktionen befinden sich in der Entwicklung</Text>
+	<Text Id="T_Notice3" >Updates werden nach und nach veröffentlicht</Text>
+	<Text Id="T_Notice4" >Qualität ist uns wichtig</Text>
+
+	<Text Id="T_NeedYes" >ja</Text>
+	<Text Id="T_NeedNo" >nein</Text>
+
+	<Text Id="T_Message" >Nachricht</Text>
+	<Text Id="T_ActiveMessage" >Aktive Nachricht</Text>
+	<Text Id="T_MessageToMainMenu" >Nachricht: Zum Hauptmenü</Text>
+	<Text Id="T_MessageHalt" >Nachricht: Beenden</Text>
+	<Text Id="T_MessageSettlementPlunder" >Nachricht: Plünderung</Text>
+	<Text Id="T_MessageMainMenuSettingsReset" >Meldung: Zurücksetzen</Text>
+	<Text Id="T_MessageMainMenuSettingsApply" >Nachricht: Anwenden</Text>
+	<Text Id="T_MessageEnemyAttack" >Nachricht: Angriff</Text>
+	<Text Id="T_MessageEnemyAttack0" >Nachricht: Angriff 1</Text>
+	<Text Id="T_MessageEnemyAttack1" >Nachricht: Angriff 2</Text>
+	<Text Id="T_MessageEnemyAttack2" >Nachricht: Angriff 3</Text>
+	<Text Id="T_MessageEnemyAttack3" >Nachricht: Angriff 4</Text>
+	<Text Id="T_MessageEnemyAttack4" >Nachricht: Angriff 5</Text>
+	<Text Id="T_MessageEnemyAttack5" >Nachricht: Angriff 6</Text>
+	<Text Id="T_MessageEnemyAttack6" >Nachricht: Angriff 7</Text>
+
+	<Text Id="T_NewGame" >Neues Spiel</Text>
+	<Text Id="T_NewGameWindow" >Neues Spiel</Text>
+	<Text Id="T_NewGameGuide" >Leitfaden</Text>
+	<Text Id="T_NewGameTeam1" >Team: 1 (Silber)</Text>
+	<Text Id="T_NewGameTeam2" >Team: 2 (Lila)</Text>
+	<Text Id="T_NewGameTeam3" >Team: 3 (Orange)</Text>
+	<Text Id="T_NewGameTeam4" >Team: 4 (Gelb)</Text>
+	<Text Id="T_NewGameTeam5" >Team: 5 (Grün)</Text>
+	<Text Id="T_NewGameTeam6" >Team: 6 (Türkis)</Text>
+	<Text Id="T_NewGameTeam7" >Team: 7 (Blau)</Text>
+	<Text Id="T_NewGameTeam8" >Team: Zufällig</Text>
+
+	<Text Id="T_ThereNoWay" >Auf keinen Fall</Text>
+	<Text Id="T_ThereIsNoPlace" >Es gibt keinen Ort</Text>
+	<Text Id="T_NotOurLand" >Nicht unser Land</Text>
+
+	<Text Id="T_EnemyTerritoryCaptured" >Feindliches Territorium erobert</Text>
+	<Text Id="T_AllyTerritoryCaptured" >Verbündetes Gebiet erobert</Text>
+	<Text Id="T_NeutralTerritoryCaptured" >Neutrales Territorium erobert</Text>
+	<Text Id="T_TerritoryOccupied" >Gebiet besetzt</Text>
+	<Text Id="T_ThisTerritoryIsAlreadyOurs" >Dieses Gebiet gehört bereits uns</Text>
+	<Text Id="T_TooFarFromTheDomain" >Zu weit von der Domäne entfernt</Text>
+
+	<Text Id="T_ImpossibleToDestroy" >Unmöglich zu zerstören</Text>
+	<Text Id="T_NothingToDestroy" >Nichts zu zerstören</Text>
+
+	<Text Id="T_TooFarFromTheBoundaries" >Zu weit von den Grenzen entfernt</Text>
+
+	<Text Id="T_CanBeBuiltOnLandOrRiver" >Kann auf Land oder Fluss gebaut werden</Text>
+	<Text Id="T_CanBeBuiltOnLandOrRiver2" >Kann an Land oder an einem Fluss im Wald gebaut werden</Text>
+	<Text Id="T_CanOnlyBeBuiltOnWater" >Kann nur auf Wasser gebaut werden</Text>
+
+	<Text Id="T_NewGameNation" >Kultur</Text>
+	<Text Id="T_NewGameNation0" >Steppe</Text>
+	<Text Id="T_NewGameNation1" >Wasser</Text>
+	<Text Id="T_NewGameNation2" >Sesshaft</Text>
+	<Text Id="T_NewGameNation3" >Berg</Text>
+	<Text Id="T_NewGameNationBonus0" >Flussüberquerung</Text>
+	<Text Id="T_NewGameNationBonus1" >Fluss- und Wasserüberquerung</Text>
+	<Text Id="T_NewGameNationBonus2" >Walddurchquerung</Text>
+	<Text Id="T_NewGameNationBonus3" >Bergüberquerung</Text>
+
+	<Text Id="T_DiplomacyTeam0" >Team 0: (Keine)</Text>
+	<Text Id="T_DiplomacyTeam1" >Team 1: (Silber)</Text>
+	<Text Id="T_DiplomacyTeam2" >Team 2: (Lila)</Text>
+	<Text Id="T_DiplomacyTeam3" >Team 3: (Orange)</Text>
+	<Text Id="T_DiplomacyTeam4" >Team 4: (Gelb)</Text>
+	<Text Id="T_DiplomacyTeam5" >Team 5: (Grün)</Text>
+	<Text Id="T_DiplomacyTeam6" >Team 6: (Türkis)</Text>
+	<Text Id="T_DiplomacyTeam7" >Team 7: (Blau)</Text>
+	<Text Id="T_DiplomacyAttitude" >Einstellung: </Text>
+
+	<Text Id="T_SettingsWindow" >Einstellungen: Fenster</Text>
+	<Text Id="T_SettingsSound" >Einstellungen: Ton</Text>
+	<Text Id="T_SettingsGame" >Einstellungen: Spiel</Text>
+	<Text Id="T_SettingsControl" >Einstellungen: Steuerung</Text>
+		
+	<Text Id="T_Fullscreen" >Vollbild</Text>
+	<Text Id="T_VerticalSensitivity" >Vertikale Empfindlichkeit</Text>
+	<Text Id="T_VideoMode" >Videomodus</Text>
+	<Text Id="T_VideoMode2" >Videomodus:</Text>
+	<Text Id="T_FramerateLimit" >Framerate-Limit</Text>
+	<Text Id="T_FramerateLimit2" >Framerate-Limit:</Text>
+	<Text Id="T_Soundtrack" >Hintergrundbegleitung</Text>
+	<Text Id="T_Soundtrack2" >Hintergrundbegleitung:</Text>
+	<Text Id="T_Soundtrack3" >Musik</Text>
+	<Text Id="T_Soundtrack4" >Soundeffekte</Text>
+
+	<Text Id="T_Language" >Sprache</Text>
+	<Text Id="T_InterfaceLanguage" >Oberflächensprache:</Text>
+
+	<Text Id="T_WindowMode" >Fenstermodus</Text>
+	<Text Id="T_WindowMode2" >Fenstermodus:</Text>
+	<Text Id="T_WindowModeWindowed" >Fensterweise</Text>
+	<Text Id="T_WindowModeFullscreenWindowed" >Vollständiges Fenster</Text>
+	<Text Id="T_WindowModeFullscreen" >Vollbild</Text>
+
+	<Text Id="T_Music" >Musik</Text>
+	<Text Id="T_RandomMusic" >Zufällige Musik</Text>
+	<Text Id="T_RepeatMusic" >Musik wiederholen</Text>
+	<Text Id="T_NowPlaying" >Wird gerade abgespielt: </Text>
+
+	<Text Id="T_Ally" >Verbündeter</Text>
+	<Text Id="T_Peace" >Frieden</Text>
+	<Text Id="T_AtWar" >Im Krieg</Text>
+	<Text Id="T_Relatives" >Verwandte</Text>
+
+	<Text Id="T_Settlement" >Abrechnung</Text>
+	<Text Id="T_Castle" >Burg</Text>
+	<Text Id="T_Field" >Feld</Text>
+	<Text Id="T_Suburb" >Vorort</Text>
+	<Text Id="T_Weide" >Weide</Text>
+	<Text Id="T_Sawmill" >Sägewerk</Text>
+	<Text Id="T_Fisheries" >Fischereien</Text>
+	<Text Id="T_Wall" >Wand</Text>
+	<Text Id="T_Tower" >Turm</Text>
+	<Text Id="T_Barn" >Scheune</Text>
+
+	<Text Id="T_Size" >Größe</Text>
+	<Text Id="T_TradeSize" >Größe:</Text>
+	<Text Id="T_Tax" >Steuer</Text>
+	<Text Id="T_Damage" >Schaden</Text>
+	<Text Id="T_Protection" >Schutz</Text>
+	<Text Id="T_Condition" >Bedingung</Text>
+
+	<Text Id="T_TradeName" >Name:</Text>
+	<Text Id="T_TradeClass" >Klasse:</Text>
+	<Text Id="T_TradeCost" >Kosten:</Text>
+	<Text Id="T_TradeDescription" >Beschreibung:</Text>
+
+	<Text Id="T_Description" >Beschreibung</Text>
+	<Text Id="T_SettlementDescription1_1" >Das Gebäude befindet sich</Text>
+	<Text Id="T_SettlementDescription1_2" >Kann bauen</Text>
+	<Text Id="T_SettlementDescription1_3" >Bau nicht möglich</Text>
+	<Text Id="T_SettlementDescription1_4" >Fremdes Territorium</Text>
+
+	<Text Id="T_SettlementDescription2_1" >Ressourcen:</Text>
+
+	<Text Id="T_SettlementDescription3_1" >Wald: </Text>
+	<Text Id="T_SettlementDescription3_2" >Hier ist nichts</Text>
+		
+	<Text Id="T_SettlementDescription4_1" >Domäne: </Text>
+	<Text Id="T_Team0" >Keine</Text>
+	<Text Id="T_Team1" >Rahmen</Text>
+
+	<Text Id="T_Build" >Erstellen</Text>
+
+	<Text Id="B_BuildPanel1" >1: Scheune</Text>
+	<Text Id="B_BuildPanel2" >2: Sägewerk</Text>
+	<Text Id="B_BuildPanel3" >3: Vorort</Text>
+	<Text Id="B_BuildPanel4" >4: Feld</Text>
+	<Text Id="B_BuildPanel5" >5: Weide</Text>
+	<Text Id="B_BuildPanel6" >6: Fischerei</Text>
+	<Text Id="B_BuildPanel7" >7: Mauer</Text>
+	<Text Id="B_BuildPanel8" >8: Turm</Text>
+	<Text Id="B_BuildPanel9" >9: Burg</Text>
+	<Text Id="B_BuildPanel10" >STRG: Domäne</Text>
+	<Text Id="B_BuildPanel11" >0: Plünderung</Text>
+
+	<Text Id="T_Gold" >Gold</Text>
+	<Text Id="T_Food" >Essen</Text>
+	<Text Id="T_Wood" >Holz</Text>
+	<Text Id="T_Army" >Armee</Text>
+
+	<Text Id="T_Berries" >Beeren</Text>
+	<Text Id="T_Bread" >Brot</Text>
+	<Text Id="T_Fruit" >Obst</Text>
+	<Text Id="T_Hen" >Henne</Text>
+	<Text Id="T_Honey" >Schatz</Text>
+	<Text Id="T_Meat" >Fleisch</Text>
+	<Text Id="T_Millet" >Hirse</Text>
+	<Text Id="T_Salt" >Salz</Text>
+	<Text Id="T_Apple" >Äpfel</Text>
+	<Text Id="T_Fish" >Fisch</Text>
+	<Text Id="T_Corn" >Mais</Text>
+	<Text Id="T_Cucumber" >Gurken</Text>
+	<Text Id="T_Banana" >Bananen</Text>
+
+	<Text Id="T_Spear" >Speer</Text>
+	<Text Id="T_Sword" >Schwert</Text>
+	<Text Id="T_Archer" >Bogenschütze</Text>
+	<Text Id="T_Crossbow" >Armbrust</Text>
+	<Text Id="T_HorseSpear" >Pferdespeer</Text>
+	<Text Id="T_HorseSword" >Pferdeschwert</Text>
+	<Text Id="T_BatteringRam" >Sturmbock</Text>
+	<Text Id="T_SiegeTower" >Belagerungsturm</Text>
+
+	<Text Id="T_Hall" >Halle</Text>
+	<Text Id="T_Elder" >Ältester</Text>
+	<Text Id="T_Prison" >Gefängnis</Text>
+	<Text Id="T_Market" >Markt</Text>
+	<Text Id="T_Smithy" >Smithy</Text>
+	<Text Id="T_Tavern" >Taverne</Text>
+	<Text Id="T_Arena" >Arena</Text>
+	<Text Id="T_Squad" >Kader</Text>
+
+	<Text Id="T_None" >Keine</Text>
+	<Text Id="T_Water" >Wasser</Text>
+	<Text Id="T_Land" >Land</Text>
+	<Text Id="T_River" >Fluss</Text>
+	<Text Id="T_Forest" >Wald</Text>
+	<Text Id="T_ForestMountain" >Waldberg</Text>
+	<Text Id="T_Mountain" >Berg</Text>
+	<Text Id="B_Cut" >Ausschneiden</Text>
+
+	<Text Id="T_Name" >Name</Text>
+	<Text Id="T_Log" >Protokollieren</Text>
+
+	<Text Id="T_Population" >Bevölkerung</Text>
+		
+	<Text Id="T_Technology" >Technologie</Text>
+	<Text Id="T_Diplomacy" >Diplomatie</Text>
+	<Text Id="B_DiplomacyNone" >Diplomatie (Keine)</Text>
+
+	<Text Id="T_Technology0" >Technologie: Bewegung</Text>
+	<Text Id="T_Technology1" >Technologie: Gebäude</Text>
+	<Text Id="T_Technology2" >Technologie: Produktion</Text>
+	<Text Id="T_Technology3" >Technik: Rathaus</Text>
+	<Text Id="T_Technology4" >Technologie: Militär</Text>
+	<Text Id="T_Technology5" >Technologie: Ausrüstung</Text>
+
+	<Text Id="T_Movement" >Bewegung</Text>
+	<Text Id="T_Buildings" >Gebäude</Text>
+	<Text Id="T_Production" >Produktion</Text>
+	<Text Id="T_TownHall" >Rathaus</Text>
+	<Text Id="T_Military" >Militär</Text>
+	<Text Id="T_Equipment" >Ausrüstung</Text>
+
+	<Text Id="B_Menu" >Menü</Text>
+
+	<Text Id="T_MapName" >Name</Text>
+	<Text Id="T_MapSize" >Größe</Text>
+	<Text Id="T_MapTeams" >Teams</Text>
+
+	<Text Id="T_Team" >Team</Text>
+	<Text Id="T_Map" >Karte</Text>
+
+	<Text Id="T_MainMenuLoadGame">Spiel laden</Text>
+	<Text Id="T_MainMenuSaveGame">Spiel speichern</Text>
+	<Text Id="B_Load">Laden</Text>
+	<Text Id="B_Save">Speichern</Text>
+	<Text Id="B_Delete">Löschen</Text>
+	<Text Id="T_LoadGameDate">Datum: </Text>
+
+	<Text Id="B_BackToGame" >Zurück zum Spiel</Text>
+	<Text Id="B_NewGame" >Neues Spiel</Text>
+	<Text Id="B_LoadGame" >Spiel laden</Text>
+	<Text Id="B_SaveGame" >Spiel speichern</Text>
+	<Text Id="B_Multiplayer" >Mehrspieler</Text>
+	<Text Id="B_Settings" >Einstellungen</Text>
+	<Text Id="B_Authors" >Autoren</Text>
+	<Text Id="B_ToMainMenu" >Zum Hauptmenü</Text>
+	<Text Id="B_Quit" >Beenden</Text>
+
+	<Text Id="B_Window" >Fenster</Text>
+	<Text Id="B_Sound" >Ton</Text>
+	<Text Id="B_Game" >Spiel</Text>
+	<Text Id="B_Control" >Kontrolle</Text>
+
+	<Text Id="B_Reset" >Zurücksetzen</Text>
+	<Text Id="B_Apply" >Anwenden</Text>
+
+	<Text Id="B_Play" >Spielen</Text>
+	<Text Id="B_Next" >Weiter</Text>
+	<Text Id="B_Back" >Zurück</Text>
+	<Text Id="B_Cancel" >Abbrechen</Text>
+	<Text Id="B_Continue" >Weiter</Text>
+	<Text Id="B_Close" >Schließen</Text>
+
+	<Text Id="B_Castle" >Burg</Text>
+	<Text Id="B_Hall" >Halle</Text>
+	<Text Id="B_Elder" >Ältester</Text>
+	<Text Id="B_Prison" >Gefängnis</Text>
+	<Text Id="B_Market" >Markt</Text>
+	<Text Id="B_Smithy" >Smithy</Text>
+	<Text Id="B_Tavern" >Taverne</Text>
+	<Text Id="B_Arena" >Arena</Text>
+	<Text Id="B_Squad" >Kader</Text>
+		
+	<Text Id="T_Flag" >Kennzeichen: </Text>
+	<Text Id="T_Nation" >Kultur: </Text>
+
+	<Text Id="B_Log" >Protokollieren</Text>
+	<Text Id="T_Log" >Protokollieren</Text>
+
+	<Text Id="B_Buy" >Kaufen</Text>
+	<Text Id="B_Sell" >Verkaufen</Text>
+	<Text Id="B_Plunder" >Plünderung</Text>
+
+	<Text Id="T_BuildingsLimitExceeded" >Gebäudelimit überschritten</Text>
+	<Text Id="T_BuildingsLimit" >Gebäudelimit</Text>
+
+	<Text Id="B_Diplo" >Diplomatie</Text>
+	<Text Id="B_Inventory" >Inventar</Text>
+
+	<Text Id="B_Main" >Haupt</Text>
+	<Text Id="B_Technology" >Technologie</Text>
+	<Text Id="B_Squad" >Kader</Text>
+	<Text Id="B_Diplomacy" >Diplomatie</Text>
+
+	<Text Id="T_Resources" >Ressourcen</Text>
+	<Text Id="T_NeedResources" >Bedarf: </Text>
+
+	<Text Id="T_Terrain" >Gelände</Text>
+	<Text Id="T_Points" >Punkte</Text>
+	<Text Id="T_1PointBuild" >+ 1 / bauen</Text>
+	<Text Id="T_3PointTurn" >+ 3 / Umdrehung</Text>
+
+	<Text Id="T_MessageTechnologyLearn" >Technologie lernen</Text>
+	<Text Id="T_MessageNewWar" >Erkläre einen Krieg</Text>
+	<Text Id="T_MessageAttack" >Greife den Feind an</Text>
+
+	<Text Id="T_PlantFoods" >Pflanzennahrung</Text>
+	<Text Id="T_WaterFoods" >Wassernahrung</Text>
+	<Text Id="T_PastureFoods" >Weidefutter</Text>
+
+	<Text Id="T_SettlementArmy" >Siedlungsarmee</Text>
+	<Text Id="T_CastleArmy" >Burgarmee</Text>
+
+	<Text Id="T_GameUnitDestroyed" >Spieleinheit zerstört</Text>
+
+	<Text Id="T_EnemyDomain" >Feindliche Domäne</Text>
+
+	<Text Id="B_Guide" >Leitfaden</Text>
+
+	<Text Id="B_Create" >Erstellen</Text>
+	<Text Id="B_Connect" >Verbunden</Text>
+	<Text Id="T_Players" >Spieler</Text>
+	<Text Id="T_Empty" >Leer</Text>
+	<Text Id="T_Place" >Ort</Text>
+
+	<Text Id="T_MultiplayerConnect" >Mehrspieler: Verbinden</Text>
+	<Text Id="T_MultiplayerCreate" >Multiplayer: erstellen</Text>
+
+	<Text Id="B_Kick" >Kick</Text>
+	<Text Id="B_Add" >Hinzufügen</Text>
+
+	<Text Id="T_Authors" >Autoren</Text>
+		
+<Text Id="TA_Authors" >
+-- RAD team:;
+`* UncleSergy - Hauptentwickler und Programmierer;
+`* Rotten - Hauptkünstler;
+`* ogyrec - Musiker / Spieldesigner;
+`* denton - Musiker;
+;
+-- Besonderer Dank an:;
+`* Sean McRoberts – Hauptsoundtrack;
+`* DronXD – Spieledesigner (2020);
+`* Fitzgerald RED - Einfach eine coole Person;
+`* Diejenigen, die bei der Entwicklung des Projekts helfen!
+</Text>
+	
+<Text Id="TA_Message" >
+;
+Sind Sie sicher, dass Sie fortfahren möchten?
+</Text>
+		
+<Text Id="TA_SettingsControl" >
+* Allgemein:;
+`[ Pfeile ] - Bewegen Sie die Wildkamera.;
+`[ +, -, Mausrad drehen ] - Vergrößern und verkleinern Sie die Kamera.;
+`[ QEZC, WAXD, rechte Maustaste ] - Bewegen Sie den Trupp des Spielers. (Die Kamera fokussiert sofort auf den Trupp.);
+`[ Shift ] - Interaktion mit der Zelle.;
+`[ S, Enter, Mausrad drücken ] - Aktuellen Zug überspringen.;
+`[ Linke Maustaste ] - Bewegen Sie den Mauszeiger der Spielkarte.;
+* Markierungen auf der Karte:;
+`[ G ] - Spielgitter ein- oder ausblenden.;
+`[ P ] - Zeigt oder verbirgt die Einheit des Spielers.;
+`[ O ] - Einheiten von Feinden anzeigen oder ausblenden.;
+`[ B ] - Gebäude von Feinden anzeigen oder verbergen.;
+`[ R ] - Handelsrouten (Straßen) ein- oder ausblenden.;
+`[ M ] - Gebäudemarkierungen ein- oder ausblenden.;
+`[ &lt; ] - Zeigen oder verbergen Sie das Eigentumsraster.;
+`[ &gt; ] - Blendet das Raster möglicher Bewegungen ein oder aus.;
+`[ N] - Namen von Objekten ein- oder ausblenden.;
+* Speziell:;
+`[ F4 ] - Notbeenden des Spiels (sofort und ohne Speichern).;
+`[ H ] - Zeigt oder verbirgt die gesamte Spieloberfläche. (nicht im Hauptmenü);
+`[ ~ ] - Zeigen oder verbergen Sie das rechte Bedienfeld.;
+`[ Tab ] - Blendet das linke Panel ein oder aus.
+</Text>
+<Text Id="TA_NewGame0" >
+* Willkommen zum Spiel Kings0. Dies ist unser erstes Spiel im Strategie-Genre.;
+;
+* Es sei daran erinnert, dass das Spiel aktualisiert wird. Wir hören uns auch die Meinungen der Spieler, ihre Ideen und Vorschläge genau an, die wir im Laufe der Zeit schrittweise in die Praxis umsetzen.;
+* Im Falle von Fehlern, die mit allen möglichen Mitteln an uns gerichtet werden. Im Laufe der Zeit werden wir das Spiel also noch besser machen, um ein komfortables Spiel zu ermöglichen.;
+;
+* Im Moment ist nur der Einzelspielermodus verfügbar, in dem es keine Enden und keine Aufgaben gibt. In naher Zukunft ist geplant, verschiedene Versionen des Multiplayer-Spiels und der Modi zu erstellen.;
+* Außerdem gibt es hier keine Sicherungsdateien. Wir arbeiten derzeit an einer besseren Version der Spiel-Engine mit Mod-Unterstützung.;
+;
+* Bevor Sie ein neues Unternehmen gründen, empfehlen wir Ihnen, sich mit dem Leitfaden vertraut zu machen, in dem Sie über das Spiel und seine grundlegenden Mechanismen informiert werden.;
+* Das Spiel ist nicht so schwierig, aber es hat viele Variationen und Mechanismen für jede der neuen Kampagnen. Daher ist es wichtig, jede Ihrer Entscheidungen zu berücksichtigen.
+</Text>
+<Text Id="TA_Guide0" >
+Willkommen beim Kings0-Leitfaden, in dem wir Sie durch die Grundlagen des Spiels und der Steuerung führen.;
+;
+Das Spiel hat viele Entwicklungspfade und basiert auf Strategie.;
+;
+Es gibt drei Hauptwege der Entwicklung: Wirtschaft, Diplomatie und Krieg. Jedes Unternehmen ist einzigartig und basiert auf Ihrer Fähigkeit, verfügbare Mechaniken zu spielen und zu verwalten.
+</Text>
+<Text Id="TA_Guide1" >
+Um das Spiel zu gewinnen, müssen Sie alle Rathäuser des Feindes und seine Hauptfigur zerstören.;
+;
+Jedes Team hat nur einen Charakter und ein Rathaus, die eroberten Gebäude nicht mitgezählt. Um Ihr Team zu entwickeln, müssen Sie das Gebiet um sich herum erobern und es während des Spiels entwickeln.
+</Text>
+<Text Id="TA_Guide2" >
+Das Spiel enthält Brillen, die Hilfsfunktionen ausführen, wie z. B. das Studium neuer Technologien, Diplomatie und Bewegung auf der Spielkarte. Ressourcen sind für den Bau von Gebäuden, Geschenke und den Austausch zwischen anderen Teams vorhanden. Und auch da ist deine Bevölkerung und deine Armee.;
+;
+Um mehr Punkte oder Ressourcen zu erhalten, müssen Sie das Gebiet um sich herum entwickeln. Außerdem sind einige Arten von Ressourcen begrenzt, die durch den Bau bestimmter Gebäude erhöht werden können.
+</Text>
+<Text Id="TA_Guide3" >
+Das Bewegen auf der Karte wird mit den Tasten QEZC (Diagonale) und WAXD (Seiten) ausgeführt. Jede Ihrer Bewegungen auf der Karte oder andere Interaktionen mit ihr erfordert Bewegungspunkte, die in einer bestimmten Menge in jeder neuen Runde vergeben werden.;
+;
+Um die Effizienz zu steigern, können Sie Straßen oder spezielle Strukturen bauen, die pro Runde zusätzliche Punkte bringen.
+</Text>
+<Text Id="TA_Guide4" >
+Sie können auch auf ein Problem mit der Bewegung stoßen. Im Spiel gibt es eine Bewegungszone, die mit einem schwarzen Gitter markiert ist. Um es zu erweitern: Erobern Sie mehr Gebiete, schließen Sie Allianzen oder erklären Sie Kriege und bauen Sie mehr Gebäude.;
+;
+Zonen schließen sich auch mit Ihren Verbündeten zusammen und werden entfernt, wenn ihre Domänengebäude verloren gehen.;
+;
+Richtungspfeile um deinen Charakter herum zeigen dir die Bewegungspfade.
+</Text>
+<Text Id="TA_Guide5" >
+Vielleicht haben Sie schon bemerkt, dass jedes Team auch sein eigenes Territorium hat, was oben ein wenig erwähnt wurde. Sie müssen Ihre Domäne für Diplomatiepunkte erweitern, um die Kontrolle über Ressourcen und einen Platz für zukünftige Gebäude zu erlangen. Es gibt keinen anderen Weg, es zu realisieren.;
+;
+An den Rändern der Karte befinden sich Grenzen, die Sie und Ihre Gegner daran hindern, das Kampagnengebiet zu verlassen.
+</Text>
+<Text Id="TA_Guide6" >
+Nachdem Sie die Kontrolle über Ressourcen erlangt haben, können Sie sie auf verschiedene Arten abbauen. Dies geschieht in der Regel entweder manuell oder automatisch anhand von Gebäuden. Dies geschieht in der Regel entweder manuell oder automatisch anhand von Gebäuden. Ein Beispiel hierfür ist die Entwaldung. Beim Bau von Gebäuden können Sie die Menge an Ressourcen auf der Zelle erhöhen. Nachdem die gesamte Ressource erschöpft ist, wird das Gebäude zerstört und die Zelle für nachfolgende Interaktionen freigegeben.;
+;
+Das Spiel kann von verschiedenen Gerätetypen oder direkt im Spielfenster selbst gesteuert werden.
+</Text>
+<Text Id="TA_Guide7" >
+Wenn Sie knapp bei Ressourcen sind, können Sie diese in den Läden Ihrer Siedlung kaufen. Im linken Bereich finden Sie weitere Spielmechaniken sowie zusätzliche Informationen zu Gebäuden und Gelände.;
+;
+In diesem Fall sollten Sie auf Menge und Art der Ware achten. Sie können ein Produkt verkaufen, wenn es einen Überschuss gibt, und dafür Gold bekommen.;
+;
+Ressourcen haben eine Chance zu erscheinen und sind an die Art des Geländes gebunden, was zu ihrer Verknappung führen kann.
+</Text>
+<Text Id="TA_Guide8" >
+Kommen wir nun zum Kampfsystem. Das Kampfsystem ist eine der wichtigen Aufgaben des Spiels und hängt direkt von Ihren Entscheidungen und deren Umsetzung ab. Sie müssen genau auf die Lage der Festungen und der Garnison darin sowie auf die Loyalität der Bevölkerung achten.;
+;
+Kriegskampagnen erfordern auch viel Investition und Vorbereitung. Pflegen Sie Ihre Lebensmittelvorräte, die Menge an Gold und den Zustand Ihres Landes als Ganzes. Die kleinsten Fehler können zum Scheitern und zur vollständigen Niederlage führen.;
+;
+Die Armee muss in der Taverne gegen Gold und Ihre Bevölkerung rekrutiert werden. Der Gewinner ist derjenige mit den meisten Leuten im Kader.
+</Text>
+<Text Id="TA_Guide9" >
+Es gibt noch einige weitere erwähnenswerte Punkte. Nach der Eroberung des Rathauses und der Zerstörung seiner Haupteinheit gilt der Spieler als Verlierer und wird automatisch zerstört. Wenn Sie ein Territorium erobern, stehen Ihnen Gebäude zur Verfügung, und wenn Sie ein Verteidigungsgebäude erobern, können Sie es entweder erobern oder zerstören.;
+;
+Um Verteidigungsanlagen wie Mauern, Türme usw. herum gibt es eine Markierungszone, die es ermöglicht, nur von den Diagonalen und auf keine andere Weise anzugreifen, die auch mit der richtigen Verteidigung oder Angriff verwendet werden kann.
+</Text>
+<Text Id="TA_Guide10" >
+Nun ein wenig zur Technik. Technologie ermöglicht es Ihnen, neue Mechaniken und Möglichkeiten für das Spiel zu erhalten. Sie können sie für Technologiepunkte öffnen, die von der Bevölkerung angesammelt werden. Es gibt strenge Zweige, die nach und nach untersucht werden müssen.;
+;
+Das Studium einiger Zweige verschiebt das Studium anderer. Entscheiden Sie daher, an welcher Reihenfolge Sie festhalten, und beginnen Sie mit der Entwicklung Ihrer Zivilisation.
+</Text>
+<Text Id="TA_Guide11" >
+Das ist alles, was Sie wissen mussten. In dieser Version des Spiels werden nicht alle Mechaniken verwendet, einige werden noch fertiggestellt oder beginnen gerade erst mit der Erstellung. In Zukunft wird es immer mehr Mechaniken geben und wir planen, das Spiel für Spieler realistischer, facettenreicher und komfortabler zu gestalten.;
+;
+In dieser Version des Spiels können Sie keine feindlichen Gebäude besiegen oder angreifen, aber Sie können sein Territorium erobern.
+;
+Darüber hinaus können Sie auf einer Testkarte zum 1-gegen-1-Lernen spielen. Wie Sie spielen, ist nur durch Ihre Vorstellungskraft begrenzt. Erfolgreiche Kampagnen!
+</Text>
+<!-- End of file-->
+</Data>

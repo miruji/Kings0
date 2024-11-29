@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="0" Y="Maximum" Width="490" Height="32" FixedPosition="1" Layer="1"/>
+
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\DownLeftButtons.png" X="0" Y="0" W="490" H="32"/>
+		<!-- Menu button -->
+		<Button ImageId="Window" Event="!MainMenuBack2" Src="Data\Textures\UI\None.png" X="0" Y="0" W="218" H="32"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="32|218" Y="1|32">~B_Menu</Text>
+		<!-- Player drawing 660 -->
+		<Button ImageId="Window" Event="!PlayerDrawing" Src="Data\Textures\UI\None.png" X="220" Y="0" W="32" H="32"/>
+		<!-- Enemy drawing -->
+		<Button ImageId="Window" Event="!EnemyDrawing" Src="Data\Textures\UI\None.png" X="254" Y="0" W="32" H="32"/>
+		<!-- Settlement drawing -->
+		<Button ImageId="Window" Event="!SettlementsDrawing" Src="Data\Textures\UI\None.png" X="288" Y="0" W="32" H="32"/>
+		<!-- Player direction drawing -->
+		<Button ImageId="Window" Event="!PlayerDirectionDrawing" Src="Data\Textures\UI\None.png" X="322" Y="0" W="32" H="32"/>
+		<!-- Grid map drawing -->
+		<Button ImageId="Window" Event="!GridMapDrawing" Src="Data\Textures\UI\None.png" X="356" Y="0" W="32" H="32"/>
+		<!-- No entry -->
+		<Button ImageId="Window" Event="!NoEntryMapDrawing" Src="Data\Textures\UI\None.png" X="390" Y="0" W="32" H="32"/>
+		<!-- Domain -->
+		<Button ImageId="Window" Event="!DomainMapDrawing" Src="Data\Textures\UI\None.png" X="424" Y="0" W="32" H="32"/>
+		<!-- Preview -->
+		<!-- <Button ImageId="Window" Event="!PreviewMapDrawing" Src="Data\Textures\UI\None.png" X="458" Y="0" W="32" H="32"/> -->
+		
+</Data>

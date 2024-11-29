@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="Center" Y="Center" Width="400" Height="147" FixedPosition="0"/>
+
+	<!-- Block -->
+	<Image Id="Message" Src="Data\Textures\UI\Message.png" X="0" Y="0" W="400" H="147"/>
+		<!-- Window name -->
+		<Text   ImageId="Message" Spec="Message" Color="rgba(255,255,255,255)" X="6|362" Y="6|25">~T_Message</Text>
+		<!-- Window exit -->
+		<Button ImageId="Message" Event="!Close" Src="Data\Textures\UI\None.png" X="373" Y="6" W="21" H="19"/>
+		
+		<!-- Main -->
+			<!-- Text area -->
+			<Input ImageId="Message" Type="Read" X="26" Y="31" W="342" H="54">~TA_Message</Input>
+		
+		<!-- Cancel button -->
+		<Button ImageId="Settings" Event="!Close" Src="Data\Textures\UI\None.png" X="203" Y="122" W="94" H="19"/>
+		<Text   ImageId="Settings" Color="rgba(255,255,255,255)" X="203|294" Y="122|141">~B_Cancel</Text>
+		
+		<!-- Apply button -->
+		<Button Id="ContinueButton" ImageId="Message" Event="!None" Src="Data\Textures\UI\None.png" X="300" Y="122" W="94" H="19"/>
+		<Text   ImageId="Message" Color="rgba(255,255,255,255)" X="300|394" Y="122|141">~B_Continue</Text>
+		
+</Data>

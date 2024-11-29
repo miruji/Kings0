@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Language -->
+<!-- 
+	Id = [Key_] + [Name] 
+	T_   -  Text 
+	B_   -  Button 
+	TA_  -  Text area 
+ -->
+<Data>
+	<Text Id="T_" ></Text>
+	<Text Id="T_: " ></Text>
+	<Text Id="T_Tilde" >~</Text>
+
+	<Text Id="T_Version" >Ver. 000000</Text>
+	<Text Id="T_FPS" >FPS</Text>
+	
+	<Text Id="T_Notice1" >Данная игра находится в раннем доступе</Text>
+	<Text Id="T_Notice2" >Многие функции находятся в разработке</Text>
+	<Text Id="T_Notice3" >Обновления будут выходить постепенно</Text>
+	<Text Id="T_Notice4" >Для нас важно качество</Text>
+	
+	<Text Id="T_NeedYes" >да</Text>
+	<Text Id="T_NeedNo" >нет</Text>
+	
+	<Text Id="T_Message" >Сообщение</Text>
+	<Text Id="T_ActiveMessage" >Активное сообщение</Text>
+	<Text Id="T_MessageToMainMenu" >Сообщение : В главное меню</Text>
+	<Text Id="T_MessageHalt" >Сообщение : Выйти</Text>
+	<Text Id="T_MessageSettlementPlunder" >Сообщение : Разграбить</Text>
+	<Text Id="T_MessageMainMenuSettingsReset" >Сообщение: Сбросить</Text>
+	<Text Id="T_MessageMainMenuSettingsApply" >Сообщение: Применить</Text>
+	<Text Id="T_MessageEnemyAttack" >Сообщение: Атака</Text>
+	<Text Id="T_MessageEnemyAttack0" >Сообщение: Атака 1</Text>
+	<Text Id="T_MessageEnemyAttack1" >Сообщение: Атака 2</Text>
+	<Text Id="T_MessageEnemyAttack2" >Сообщение: Атака 3</Text>
+	<Text Id="T_MessageEnemyAttack3" >Сообщение: Атака 4</Text>
+	<Text Id="T_MessageEnemyAttack4" >Сообщение: Атака 5</Text>
+	<Text Id="T_MessageEnemyAttack5" >Сообщение: Атака 6</Text>
+	<Text Id="T_MessageEnemyAttack6" >Сообщение: Атака 7</Text>
+
+	<Text Id="T_NewGame" >Новая игра</Text>
+	<Text Id="T_NewGameWindow" >Новая игра</Text>
+	<Text Id="T_NewGameGuide" >Обучение</Text>
+	<Text Id="T_NewGameTeam1" >1 : (Серебряный)</Text>
+	<Text Id="T_NewGameTeam2" >2 : (Пурпурный)</Text>
+	<Text Id="T_NewGameTeam3" >3 : (Оранжевый)</Text>
+	<Text Id="T_NewGameTeam4" >4 : (Жёлтый)</Text>
+	<Text Id="T_NewGameTeam5" >5 : (Зелёный)</Text>
+	<Text Id="T_NewGameTeam6" >6 : (Бирюзовый)</Text>
+	<Text Id="T_NewGameTeam7" >7 : (Синий)</Text>
+	<Text Id="T_NewGameTeam8" >1-7 : Случайная</Text>
+	
+	<Text Id="T_ThereNoWay" >Нет пути</Text>
+	<Text Id="T_ThereIsNoPlace" >Нет места</Text>
+	<Text Id="T_NotOurLand" >Не наша земля</Text>
+	
+	<Text Id="T_EnemyTerritoryCaptured" >Захвачена территория врага</Text>
+	<Text Id="T_AllyTerritoryCaptured" >Захвачена территория союзника</Text>
+	<Text Id="T_NeutralTerritoryCaptured" >Нейтральная территория захвачена</Text>
+	<Text Id="T_TerritoryOccupied" >Территория захвачена</Text>
+	<Text Id="T_ThisTerritoryIsAlreadyOurs" >Эта территория уже наша</Text>
+	<Text Id="T_TooFarFromTheDomain" >Слишком далеко от владений</Text>
+	
+	<Text Id="T_ImpossibleToDestroy" >Невозможно уничтожить</Text>
+	<Text Id="T_NothingToDestroy" >Нечего уничтожать</Text>
+	
+	<Text Id="T_TooFarFromTheBoundaries" >Слишком далеко от границ</Text>
+	
+	<Text Id="T_CanBeBuiltOnLandOrRiver" >Можно построить на земле или реке</Text>
+	<Text Id="T_CanBeBuiltOnLandOrRiver2" >Можно построить на суше или на реке в лесу</Text>
+	<Text Id="T_CanOnlyBeBuiltOnWater" >Можно построить только на воде</Text>
+	
+	<Text Id="T_NewGameNation" >Культура</Text>
+	<Text Id="T_NewGameNation0" >Кочевники</Text>
+	<Text Id="T_NewGameNation1" >Водные</Text>
+	<Text Id="T_NewGameNation2" >Оседлые</Text>
+	<Text Id="T_NewGameNation3" >Горные</Text>
+	<Text Id="T_NewGameNationBonus0" >Пересечение рек</Text>
+	<Text Id="T_NewGameNationBonus1" >Пересечение рек и воды</Text>
+	<Text Id="T_NewGameNationBonus2" >Пересечение леса</Text>
+	<Text Id="T_NewGameNationBonus3" >Пересечение гор</Text>
+	
+	<Text Id="T_DiplomacyTeam0" >Команда 0 : (Отсутствует)</Text>
+	<Text Id="T_DiplomacyTeam1" >Команда 1 : (Серебряный)</Text>
+	<Text Id="T_DiplomacyTeam2" >Команда 2 : (Пурпурный)</Text>
+	<Text Id="T_DiplomacyTeam3" >Команда 3 : (Оранжевый)</Text>
+	<Text Id="T_DiplomacyTeam4" >Команда 4 : (Жёлтый)</Text>
+	<Text Id="T_DiplomacyTeam5" >Команда 5 : (Зелёный)</Text>
+	<Text Id="T_DiplomacyTeam6" >Команда 6 : (Бирюзовый)</Text>
+	<Text Id="T_DiplomacyTeam7" >Команда 7 : (Синий)</Text>
+	<Text Id="T_DiplomacyAttitude" >Отношение: </Text>
+	
+	<Text Id="T_SettingsWindow" >Настройки : Окно</Text>
+	<Text Id="T_SettingsSound" >Настройки : Звук</Text>
+	<Text Id="T_SettingsGame" >Настройки : Игра</Text>
+	<Text Id="T_SettingsControl" >Настройки : Управление</Text>
+	
+	<Text Id="T_Fullscreen" >В полном окне</Text>
+	<Text Id="T_VerticalSensitivity" >Вертикальная синхронизация</Text>
+	<Text Id="T_VideoMode" >Видео режим</Text>
+	<Text Id="T_VideoMode2" >Видео режим:</Text>
+	<Text Id="T_FramerateLimit" >Частота кадров</Text>
+	<Text Id="T_FramerateLimit2" >Частота кадров:</Text>
+	<Text Id="T_Soundtrack" >Фоновое сопровождение</Text>
+	<Text Id="T_Soundtrack2" >Фоновое сопровождение:</Text>
+	<Text Id="T_Soundtrack3" >Музыка</Text>
+	<Text Id="T_Soundtrack4" >Звуковые эффекты</Text>
+	
+	<Text Id="T_Language" >Язык</Text>
+	<Text Id="T_InterfaceLanguage" >Язык интерфейса:</Text>
+	
+	<Text Id="T_WindowMode" >Режим окна</Text>
+	<Text Id="T_WindowMode2" >Режим окна:</Text>
+	<Text Id="T_WindowModeWindowed" >В окне</Text>
+	<Text Id="T_WindowModeFullscreenWindowed" >Полное окно</Text>
+	<Text Id="T_WindowModeFullscreen" >Полный экран</Text>
+	
+	<Text Id="T_Music" >Музыка</Text>
+	<Text Id="T_RandomMusic" >Случайная музыка</Text>
+	<Text Id="T_RepeatMusic" >Повторять музыку</Text>
+	<Text Id="T_NowPlaying" >Сейчас играет: </Text>
+	
+	<Text Id="T_Ally" >Союзник</Text>
+	<Text Id="T_Peace" >Мир</Text>
+	<Text Id="T_AtWar" >В войне</Text>
+	<Text Id="T_Relatives" >Родня</Text>
+	
+	<Text Id="T_Settlement" >Поселение</Text>
+	<Text Id="T_Castle" >Замок</Text>
+	<Text Id="T_Field" >Поле</Text>
+	<Text Id="T_Suburb" >Пригород</Text>
+	<Text Id="T_Pasture" >Пастбище</Text>
+	<Text Id="T_Sawmill" >Лесопилка</Text>
+	<Text Id="T_Fisheries" >Рыболовство</Text>
+	<Text Id="T_Wall" >Стена</Text>
+	<Text Id="T_Tower" >Башня</Text>
+	<Text Id="T_Barn" >Амбар</Text>
+	
+	<Text Id="T_Size" >Размер</Text>
+	<Text Id="T_TradeSize" >Размер:</Text>
+	<Text Id="T_Tax" >Налог</Text>
+	<Text Id="T_Damage" >Урон</Text>
+	<Text Id="T_Protection" >Защита</Text>
+	<Text Id="T_Condition" >Состояние</Text>
+	
+	<Text Id="T_TradeName" >Название:</Text>
+	<Text Id="T_TradeClass" >Класс:</Text>
+	<Text Id="T_TradeCost" >Стоимость:</Text>
+	<Text Id="T_TradeDescription" >Описание:</Text>
+	
+	<Text Id="T_Description" >Описание</Text>
+	<Text Id="T_SettlementDescription1_1" >Находится постройка</Text>
+	<Text Id="T_SettlementDescription1_2" >Можно построить</Text>
+	<Text Id="T_SettlementDescription1_3" >Невозможно построить</Text>
+	<Text Id="T_SettlementDescription1_4" >Чужая территория</Text>
+	
+	<Text Id="T_SettlementDescription2_1" >Ресурсы:</Text>
+	
+	<Text Id="T_SettlementDescription3_1" >Лес: </Text>
+	<Text Id="T_SettlementDescription3_2" >Здесь ничего нет</Text>
+	
+	<Text Id="T_SettlementDescription4_1" >Владение: </Text>
+	<Text Id="T_Team0" >Отсутствует</Text>
+	<Text Id="T_Team1" >Граница</Text>
+	
+	<Text Id="T_Build" >Строить</Text>
+	
+	<Text Id="B_BuildPanel1" >1: Амбар</Text>
+	<Text Id="B_BuildPanel2" >2: Лесопилка</Text>
+	<Text Id="B_BuildPanel3" >3: Пригород</Text>
+	<Text Id="B_BuildPanel4" >4: Поле</Text>
+	<Text Id="B_BuildPanel5" >5: Пастбище</Text>
+	<Text Id="B_BuildPanel6" >6: Рыболовство</Text>
+	<Text Id="B_BuildPanel7" >7: Стена</Text>
+	<Text Id="B_BuildPanel8" >8: Башня</Text>
+	<Text Id="B_BuildPanel9" >9: Замок</Text>
+	<Text Id="B_BuildPanel10" >CTRL: Владение</Text>
+	<Text Id="B_BuildPanel11" >0: Разграбить</Text>
+	
+	<Text Id="T_Gold" >Золото</Text>
+	<Text Id="T_Food" >Еда</Text>
+	<Text Id="T_Wood" >Дерево</Text>
+	<Text Id="T_Army" >Армия</Text>
+	
+	<Text Id="T_Berries" >Ягоды</Text>
+	<Text Id="T_Bread" >Хлеб</Text>
+	<Text Id="T_Fruit" >Фрукты</Text>
+	<Text Id="T_Hen" >Курица</Text>
+	<Text Id="T_Honey" >Мёд</Text>
+	<Text Id="T_Meat" >Мясо</Text>
+	<Text Id="T_Millet" >Пшено</Text>
+	<Text Id="T_Salt" >Соль</Text>
+	<Text Id="T_Apple" >Яблоки</Text>
+	<Text Id="T_Fish" >Рыба</Text>
+	<Text Id="T_Corn" >Кукуруза</Text>
+	<Text Id="T_Cucumber" >Огурцы</Text>
+	<Text Id="T_Banana" >Бананы</Text>
+	
+	<Text Id="T_Spear" >Копейщик</Text>
+	<Text Id="T_Sword" >Мечник</Text>
+	<Text Id="T_Archer" >Лучник</Text>
+	<Text Id="T_Crossbow" >Арбалетчик</Text>
+	<Text Id="T_HorseSpear" >Конный копейщик</Text>
+	<Text Id="T_HorseSword" >Конный мечник</Text>
+	<Text Id="T_BatteringRam" >Таран</Text>
+	<Text Id="T_SiegeTower" >Осадная башня</Text>
+	
+	<Text Id="T_Hall"  >Хол</Text>
+	<Text Id="T_Elder" >Старейшина</Text>
+	<Text Id="T_Prison" >Тюрьма</Text>
+	<Text Id="T_Market" >Магазин</Text>
+	<Text Id="T_Smithy" >Кузнец</Text>
+	<Text Id="T_Tavern" >Таверна</Text>
+	<Text Id="T_Arena" >Арена</Text>
+	<Text Id="T_Squad" >Команда</Text>
+	
+	<Text Id="T_None" >Ничего</Text>
+	<Text Id="T_Water" >Вода</Text>
+	<Text Id="T_Land" >Земля</Text>
+	<Text Id="T_River" >Река</Text>
+	<Text Id="T_Forest" >Лес</Text>
+	<Text Id="T_ForestMountain" >Лесные горы</Text>
+	<Text Id="T_Mountain" >Горы</Text>
+	<Text Id="B_Cut" >Рубить</Text>
+	
+	<Text Id="T_Name" >Имя</Text>
+	<Text Id="B_Log" >Журнал</Text>
+	
+	<Text Id="T_Population" >Население</Text>
+	
+	<Text Id="T_Technology" >Технологии</Text>
+	<Text Id="T_Diplomacy" >Дипломатия</Text>
+	<Text Id="B_DiplomacyNone" >Дипломатия (нет)</Text>
+	
+	<Text Id="T_Technology0" >Технологии: Движение</Text>
+	<Text Id="T_Technology1" >Технологии: Постройки</Text>
+	<Text Id="T_Technology2" >Технологии: Продукция</Text>
+	<Text Id="T_Technology3" >Технологии: Ратуша</Text>
+	<Text Id="T_Technology4" >Технологии: Военное</Text>
+	<Text Id="T_Technology5" >Технологии: Снаряжение</Text>
+	
+	<Text Id="T_Movement" >Движение</Text>
+	<Text Id="T_Buildings" >Постройки</Text>
+	<Text Id="T_Production" >Продукция</Text>
+	<Text Id="T_TownHall" >Ратуша</Text>
+	<Text Id="T_Military" >Военное</Text>
+	<Text Id="T_Equipment" >Снаряжение</Text>
+	
+	<Text Id="B_Menu" >Меню</Text>
+	
+	<Text Id="T_MapName" >Название</Text>
+	<Text Id="T_MapSize" >Размер</Text>
+	<Text Id="T_MapTeams" >Команды</Text>
+	
+	<Text Id="T_Team" >Команда</Text>
+	<Text Id="T_Map" >Карта</Text>
+	
+	<Text Id="T_MainMenuLoadGame">Загрузить игру</Text>
+	<Text Id="T_MainMenuSaveGame">Сохранить игру</Text>
+	<Text Id="B_Load">Загрузить</Text>
+	<Text Id="B_Save">Сохранить</Text>
+	<Text Id="B_Delete">Удалить</Text>
+	<Text Id="T_LoadGameDate">Дата: </Text>
+	
+	<Text Id="B_BackToGame" >Вернуться к игре</Text>
+	<Text Id="B_NewGame" >Новая игра</Text>
+	<Text Id="B_LoadGame" >Загрузить</Text>
+	<Text Id="B_SaveGame" >Сохранить</Text>
+	<Text Id="B_Multiplayer" >Сетевая игра</Text>
+	<Text Id="B_Settings" >Настройки</Text>
+	<Text Id="B_Authors" >Авторы</Text>
+	<Text Id="B_ToMainMenu" >В главное меню</Text>
+	<Text Id="B_Quit" >Выйти</Text>
+
+	<Text Id="B_Window" >Окно</Text>
+	<Text Id="B_Sound" >Музыка</Text>
+	<Text Id="B_Game" >Игра</Text>
+	<Text Id="B_Control" >Управление</Text>
+	
+	<Text Id="B_Reset" >Сброс</Text>
+	<Text Id="B_Apply" >Применить</Text>
+	
+	<Text Id="B_Play" >Играть</Text>
+	<Text Id="B_Next" >Вперед</Text>
+	<Text Id="B_Back" >Назад</Text>
+	<Text Id="B_Cancel" >Отмена</Text>
+	<Text Id="B_Continue" >Продолжить</Text>
+	<Text Id="B_Close" >Закрыть</Text>
+	
+	<Text Id="B_Castle" >Замок</Text>
+	<Text Id="B_Hall"  >Хол</Text>
+	<Text Id="B_Elder" >Старейшина</Text>
+	<Text Id="B_Prison" >Тюрьма</Text>
+	<Text Id="B_Market" >Магазин</Text>
+	<Text Id="B_Smithy" >Кузнец</Text>
+	<Text Id="B_Tavern" >Таверна</Text>
+	<Text Id="B_Arena" >Арена</Text>
+	<Text Id="B_Squad" >Команда</Text>
+	
+	<Text Id="T_Flag" >Флаг: </Text>
+	<Text Id="T_Nation" >Культура: </Text>
+	
+	<Text Id="B_Log" >Журнал</Text>
+	<Text Id="T_Log" >Журнал</Text>
+
+	<Text Id="B_Buy" >Купить</Text>
+	<Text Id="B_Sell" >Продать</Text>
+	<Text Id="B_Plunder" >Разграбить</Text>
+	
+	<Text Id="T_BuildingsLimitExceeded" >Превышен лимит построек</Text>
+	<Text Id="T_BuildingsLimit" >Лимит построек</Text>
+
+	<Text Id="B_Diplo" >Дипломатия</Text>
+	<Text Id="B_Inventory" >Интвентарь</Text>
+	
+	<Text Id="B_Main" >Основное</Text>
+	<Text Id="B_Technology" >Технологии</Text>
+	<Text Id="B_Squad" >Отряд</Text>
+	<Text Id="B_Diplomacy" >Дипломатия</Text>
+	
+	<Text Id="T_Resources" >Ресурсы</Text>
+	<Text Id="T_NeedResources" >Необходимо: </Text>
+	
+	<Text Id="T_Terrain" >Местность</Text>
+	<Text Id="T_Points" >Очки</Text>
+	<Text Id="T_1PointBuild" >+ 1 / за постройку</Text>
+	<Text Id="T_3PointTurn" >+ 3 / за ход</Text>
+	
+	<Text Id="T_MessageTechnologyLearn" >Изучить технологию</Text>
+	<Text Id="T_MessageNewWar" >Объявить войну</Text>
+	<Text Id="T_MessageAttack" >Напасть на врага</Text>
+	
+	<Text Id="T_PlantFoods" >Растительная пища</Text>
+	<Text Id="T_WaterFoods" >Водные продукты</Text>
+	<Text Id="T_PastureFoods" >Пастбищные продукты</Text>
+	
+	<Text Id="T_SettlementArmy" >Армия поселения</Text>
+	<Text Id="T_CastleArmy" >Армия замка</Text>
+	
+	<Text Id="T_GameUnitDestroyed" >Игровой юнит уничтожен</Text>
+	
+	<Text Id="T_EnemyDomain" >Вражеская область</Text>
+	
+	<Text Id="B_Guide" >Обучение</Text>
+	
+	<Text Id="B_Create" >Создать</Text>
+	<Text Id="B_Connect" >Присоединиться</Text>
+	<Text Id="T_Players" >Игроки</Text>
+	<Text Id="T_Empty" >Пусто</Text>
+	<Text Id="T_Place" >Место</Text>
+	
+	<Text Id="T_MultiplayerConnect" >Сетевая игра: присоединиться</Text>
+	<Text Id="T_MultiplayerCreate" >Сетевая игра: создать</Text>
+	
+	<Text Id="B_Kick" >Исключить</Text>
+	<Text Id="B_Add" >Добавить</Text>
+	
+	<Text Id="T_Authors" >Авторы</Text>
+		
+<Text Id="TA_Authors" >
+-- Команда RAD:;
+`* UncleSergy - Главный разработчик и программист;
+`* Rotten - Ведущий художник;
+`* ogyrec - Музыкант / Геймдизайн;
+`* denton - Музыкант;
+;
+-- Отдельное спасибо:;
+`* Sean McRoberts - Саундтрек;
+`* DronXD - Игровой дизайнер (2020 год);
+`* Fitzgerald - Просто крутой человек;
+`* Тем кто помогает в развитии проекта!
+</Text>
+
+<Text Id="TA_Message" >
+;
+Вы уверены, что хотите продолжить?
+</Text>
+	
+<Text Id="TA_SettingsControl" >
+* Основное:;
+`[ Стрелки ] - Перемещать игровую камеру.;
+`[ +, -, Крутить колёсико мыши ] - Приближение и отдаление камеры.;
+`[ QEZC, WAXD, правая кнопка мыши ] - Переместить отряд игрока. (Камера мгновенно сосредотачивается на отряде.);
+`[ Shift ] - взаимодействие с клеткой.;
+`[ S, Enter, Нажать колёсико мышки ] - Пропустить текущий ход.;
+`[ Левая кнопка мыши ] - Переместить указатель игровой карты.;
+* Отметки на карте:;
+`[ G ] - Показать или скрыть игровую сетку.;
+`[ P ] - Показать или скрыть юнит игрока.;
+`[ O ] - Показать или скрыть юнит юниты врагов.;
+`[ B ] - Показать или скрыть постройки врагов.;
+`[ R ] - Показать или скрыть торговые пути (дороги).;
+`[ M ] - Показать или скрыть марки зданий.;
+`[ &lt; ] - Показать или скрыть сетку владений.;
+`[ &gt; ] - Показать или скрыть сетку возможного передвижения.;
+`[ N ] - Показать или скрыть наименования объектов.;
+* Особое:;
+`[ F4 ] - Экстренное завершение игры (моментально и без сохранений).;
+`[ H ] - Показать или скрыть весь интерфейс игры. (не в главном меню);
+`[ ~ ] - Показать или скрыть правую панель.;
+`[ Tab ] - Показать или скрыть левую панель.
+</Text>
+<Text Id="TA_NewGame0" >
+* Приветствуем вас в игре Kings0. Это наша первая полноценная игра в жанре стратегия.;
+;
+* Стоит помнить, что игра будет обновляться. Мы также сильно прислушиваемся ко мнению игроков, их идеям и предожениям, которые реализуем постепенно со временем.;
+* При возникновении багов вы можете обратиться к нам всеми возможными средствами. Так со временем мы сделаем игру ещё лучше для комфортной прохождения.;
+;
+* На данный момент доступен только одиночной режим, где нет концовок и каких-либо заданий. В ближайшем будущем планируется создать разные варианты сетевой игры и режимов.;
+* К тому же здесь не существует сохранений и их загрузки. В скором времени мы планируем перенести игру на наш новый движок, с поддержкой модификаций и т.п.;
+;
+* Перед началом новой компании, мы бы рекомендовали ознакомиться с обучением, где вам расскажут в общем об игре и базовых её механиках.;
+* Игра не является столь сложной, но имеет множество вариаций и механик для каждой из новых кампаний. Поэтому важно обдумывать каждое своё решение.
+</Text>
+<Text Id="TA_Guide0" >
+Приветствуем вас в обучении по игре Kings0, где мы вам расскажем об основах гемплея и управления.;
+;
+Игра имеет множество путей развития и в основе своей опирается на стратегию.;
+;
+Можно выделить три основных пути развития такие как: экономика, дипломатия и война. Каждая кампания будет уникальной и основывается на вашем умении игры и управлению достыпными механиками.
+</Text>
+<Text Id="TA_Guide1" >
+Для победы в игре, необходимо уничтожить все ратуши противника и его основного персонажа.;
+;
+Каждая команда имеет всего лишь одного персонажа и ратушу, не считая захваченных зданий. Для развития вашей команды, необходимо захватывать территорию вокруг и развивать её на протяжении игры.
+</Text>
+<Text Id="TA_Guide2" >
+В игре присутствуют очки, которые выполняют вспомогательные функции, такие как: изучение новых технологий, дипломатия и передвижение по игровой карте. Присутсвуют ресурсы для возведения построек, даров и обмена между другими командами. А также есть ваше население и армия.;
+;
+Для того чтобы получать больше очков или ресурсов, необходимо развивать территорию вокруг. Также на некоторые виды ресурсов наложен лимит, который можно повысить путём возведения определённых построек.
+</Text>
+<Text Id="TA_Guide3" >
+Передвижение по карте осуществляется на клавиши QEZC (диагонали) и WAXD (стороны). Каждое ваше перемещение по карте или иное взаимодействие с ней, требует очки передвижения, которые даются в определённом количестве каждый новый ход;
+;
+Для повышения эффективности можно строить дороги или специальные сооружения, которые будут давать дополнительные очки в ход.
+</Text>
+<Text Id="TA_Guide4" >
+Вы также можете столкнуться с проблемой по перемещению. В игре присутствует зона перемещения, которая помечена черной сеткой. Для её расширения: захватывайте больше территорий, заключайте союзы или объявляейте войны, а также стройте больше зданий.;
+;
+Зоны также объединяются с вашими союзниками и убираются при потере зданий их контролирующих.;
+;
+Стрелки направлений вокруг вашего персонажа, покажут возможные для вас пути передвижения.
+</Text>
+<Text Id="TA_Guide5" >
+Возможно вы уже обратили внимание, что у каждой команды есть ещё и своя территория, которая немного упомяналась выше. Вам необходимо расширять свои владения за очки дипломатии для получения контроля над ресурсами и местом для будущих построек. Иным путём реализовать это не получится.;
+;
+На краях карты можно обнаружить границы, которые не позволят вам и вашим противникам покинуть зону кампании.
+</Text>
+<Text Id="TA_Guide6" >
+Получив контроль над ресурсами, вы можете их добывать разными способами. Обычно это делается либо вручную, либо автоматически с помощью построек. Примером этого является вырубка лесов. При постройке зданий вы сможете увеличить количество ресурса на клетке. После того как весь ресурс будет исчерпан, здание будет уничтожено и освободит клетку для последующего взаимодействия.;
+;
+Игрой можно управлять с разных типов устройств или непосредственно в самом игровом окне.
+</Text>
+<Text Id="TA_Guide7" >
+Если же у вас мало ресурсов, но много золота, то вы можете приобретать их в магазинах ваших построек. Вы можете найти в левой панели и другие вспомогательные механики игры, а также более подробную информацию о постройках и местности.;
+;
+При этом стоит обращать внимание на количество и тип товара. Вы можете продавать товар при его избытке и получать за это золото.;
+;
+У ресурсов присутствует шанс появления и привязка к типу местности, что может вызывать их недостаток.
+</Text>
+<Text Id="TA_Guide8" >
+Теперь перейдём к боевой системе. Боевая система один из важных аспектов игры и зависит напрямую от ваших решений и их реализаций. Вам необходимо уделять пристальное внимание расположению крепостей и гарнизону в них, лояльности населения.;
+;
+Военные кампании также требуют больших вложений и приготовлений. Держите в норме запасы еды, количество золота и состояние вашей страны в целом. Малейшие ошибки могут привести к провалу и полному разгрому.;
+;
+Армию нужно набирать в таверне в обмена на золото и ваше население. Побеждает тот, у кого большее количество человек в отряде.
+</Text>
+<Text Id="TA_Guide9" >
+Стоит отметить ещё несколько моментов. После захвата главной ратуши и уничтожения его главного юнита, игрок считается проигравшим и автоматически уничтожается. При захвате территории постройки переходят в ваше распоряжение, а при захвате оборонительного сооружения вы можете либо захватить его, либо уничтожить.;
+;
+Вокруг оборонительных сооружений, таких как стены, башни и т.п. существует зона марок, которая даёт возможность атаковать только с диагоналей и никак иначе, что тоже можно использовать при правильной обороне или нападении.
+</Text>
+<Text Id="TA_Guide10" >
+Теперь немного о технологиях. Технологии позволяют получать новые механики и возможности для игры. Открывать их можно за очки технологий, которые копятся от количества населения. Существуют строгие ветки, которые необходимо исследовать постепенно.;
+;
+Исследование одних веток, откладывают изучение других. Поэтому решите, какой последовательности будете придерживаться и начинайте развивать свою цивилизацию.
+</Text>
+<Text Id="TA_Guide11" >
+Это всё, что вам стоило знать. В данной версии игры присутсвуют не все механики из перечисленных в обучении, некоторые ещё дорабатываются или только начинают создаваться. В дальнейшем механик будет становиться всё больше и мы планируем делать игру более реалистичной, многогранной и комфортной для игроков.;
+;
+В данной версии игры вы не сможете победить или атаковать постройки противника, за исключением захвата его территории. Мы также надееся чаще выпускать обновления и поддерживать связть с игроками.
+;
+В дополнение, вы можете сыграть на тестовой карте для обучения 1 на 1. Каким способом играть, вас ограничивает лишь только фантазия и уже доступные механики. Удачных вам кампаний!
+</Text>
+<!-- End of file-->
+</Data>

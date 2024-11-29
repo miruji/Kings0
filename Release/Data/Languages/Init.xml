@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Init Name="Eng"/>
+	<Init Name="Rus"/>
+	<Init Name="Ukr"/>
+	<Init Name="Hol"/>
+	<Init Name="Fra"/>
+	<Init Name="Deu"/>
+</Data>

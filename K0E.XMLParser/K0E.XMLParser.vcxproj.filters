@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{3f1b6bf8-5951-4668-aa50-ba4cc993a2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TinyXML">
+      <UniqueIdentifier>{b911045e-0348-4f93-a2ef-ef385301a270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Func">
+      <UniqueIdentifier>{8cd48587-7f53-4018-95d7-955c5ffffb1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLParser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\XMLCaste.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\XMLSettlement.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\ThisSymbol.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\ThisInt.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XMLParser.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\XMLSettlement.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\XMLCaste.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\ThisInt.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\ThisSymbol.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

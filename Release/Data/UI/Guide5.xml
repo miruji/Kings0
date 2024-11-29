@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="100" Y="Center" Width="603" Height="606" FixedPosition="1"/>
+
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\Guide0.png" X="0" Y="0" W="603" H="606"/>
+		<!-- Window name -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="5|566" Y="5|26">~T_NewGameGuide</Text>
+		<!-- Window exit -->
+		<Button ImageId="Window" Event="!Close" Src="Data\Textures\UI\None.png" X="575" Y="5" W="23" H="21"/>
+		
+		<!-- Main -->
+			<TextWrapped ImageId="Window" X="22" Y="31" W="559" H="275">~TA_Guide5</TextWrapped>
+			
+			<Image ImageId="Window" Src="Data\Textures\Guide\5.png" X="7" Y="308" W="590" H="267"/>
+		
+		<!-- More buttons -->
+		<Button ImageId="Window" Event="@Guide4" Src="Data\Textures\UI\None.png" X="5" Y="581" W="100" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="5|105" Y="581|601">~B_Back</Text>
+		
+		<Button ImageId="Window" Event="@Guide6" Src="Data\Textures\UI\None.png" X="503" Y="581" W="95" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="503|596" Y="581|601">~B_Next</Text>
+		
+</Data>

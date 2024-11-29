@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{733f4d73-2f07-48e1-a6b1-5a50ed5cb49c}</ProjectGuid>
+    <RootNamespace>K0EMap</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)</TargetName>
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)$(Configuration)\Bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;K0EMAP_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)K0E\SFML\include\</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <PrecompiledHeaderOutputFile />
+      <ProgramDataBaseFileName />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <ImportLibrary>$(SolutionDir)K0E\Lib\$(TargetName).lib</ImportLibrary>
+      <AdditionalLibraryDirectories>$(SolutionDir)K0E\Lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system.lib;sfml-graphics.lib;sfml-window.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ManifestFile />
+      <ProgramDatabaseFile />
+      <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Func\CharsStringEqually.h" />
+    <ClInclude Include="Func\GetRandomNumber.h" />
+    <ClInclude Include="Func\StringToColor.h" />
+    <ClInclude Include="Macro.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Maps\DomainMap\DomainMap.h" />
+    <ClInclude Include="Maps\GridMap\GridMap.h" />
+    <ClInclude Include="Maps\LandMap\ForestMap.h" />
+    <ClInclude Include="Maps\LandMap\LandMap.h" />
+    <ClInclude Include="Maps\LandMap\MountainMap.h" />
+    <ClInclude Include="Maps\MapBlock\MapBlock.h" />
+    <ClInclude Include="Maps\NoEntryMap\NoEntryMap.h" />
+    <ClInclude Include="Maps\PreviewMap\PreviewMap.h" />
+    <ClInclude Include="Maps\RoadMap\RoadMap.h" />
+    <ClInclude Include="Maps\WarFog\WarFog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Func\CharsStringEqually.cpp" />
+    <ClCompile Include="Func\GetRandomNumber.cpp" />
+    <ClCompile Include="Func\StringToColor.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Maps\DomainMap\DomainMap.cpp" />
+    <ClCompile Include="Maps\GridMap\GridMap.cpp" />
+    <ClCompile Include="Maps\LandMap\ForestMap.cpp" />
+    <ClCompile Include="Maps\LandMap\LandMap.cpp" />
+    <ClCompile Include="Maps\LandMap\LandMapGeneration1.cpp" />
+    <ClCompile Include="Maps\LandMap\LandMapGeneration2.cpp" />
+    <ClCompile Include="Maps\LandMap\LandMapGeneration3.cpp" />
+    <ClCompile Include="Maps\LandMap\LandMapGeneration4.cpp" />
+    <ClCompile Include="Maps\LandMap\MointainMap.cpp" />
+    <ClCompile Include="Maps\LandMap\Test1.cpp" />
+    <ClCompile Include="Maps\MapBlock\MapBlock.cpp" />
+    <ClCompile Include="Maps\NoEntryMap\NoEntryMap.cpp" />
+    <ClCompile Include="Maps\PreviewMap\PreviewMap.cpp" />
+    <ClCompile Include="Maps\RoadMap\RoadMap.cpp" />
+    <ClCompile Include="Maps\WarFog\WarFog.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

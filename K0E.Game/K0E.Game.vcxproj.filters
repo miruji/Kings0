@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Source\Caste">
+      <UniqueIdentifier>{8e9e5fd6-ae4f-4404-819f-45c8a1f92086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Player">
+      <UniqueIdentifier>{4be4bb6e-f3d0-45f5-ae2e-98d299122a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Squad">
+      <UniqueIdentifier>{e88626b7-2590-48f4-ac3d-c36ef1987599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mouse">
+      <UniqueIdentifier>{52f602e0-e011-4170-b8ac-cc4147ffbf2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Func">
+      <UniqueIdentifier>{47b62604-995d-4a7e-a932-5fa2466193e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item">
+      <UniqueIdentifier>{64e0e0b6-4486-4740-a2d3-208e4d951e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Event">
+      <UniqueIdentifier>{2c995b9c-ec48-4400-a748-4e9c8a49538a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Technology">
+      <UniqueIdentifier>{4293f287-7f0c-42dc-9bb7-6ce0bd9edf29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Caste\Caste.cpp">
+      <Filter>Source\Caste</Filter>
+    </ClCompile>
+    <ClCompile Include="Caste\Settlement.cpp">
+      <Filter>Source\Caste</Filter>
+    </ClCompile>
+    <ClCompile Include="Squad\Squad.cpp">
+      <Filter>Source\Squad</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\K0E.Window\Mouse\Mouse.cpp">
+      <Filter>Source\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\GetRandomNumber.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\Item.cpp">
+      <Filter>Source\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\Event.cpp">
+      <Filter>Source\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\RandomEvent.cpp">
+      <Filter>Source\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Squad\Character.cpp">
+      <Filter>Source\Squad</Filter>
+    </ClCompile>
+    <ClCompile Include="Caste\Unit.cpp">
+      <Filter>Source\Caste</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\SearchChar.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Technology\Technology.cpp">
+      <Filter>Source\Technology</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\StringToColor.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Macro.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Player.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Caste\Caste.h">
+      <Filter>Source\Caste</Filter>
+    </ClInclude>
+    <ClInclude Include="Caste\Settlement.h">
+      <Filter>Source\Caste</Filter>
+    </ClInclude>
+    <ClInclude Include="Squad\Squad.h">
+      <Filter>Source\Squad</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\K0E.Window\Mouse\Mouse.h">
+      <Filter>Source\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\GetRandomNumber.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\Item.h">
+      <Filter>Source\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\Event.h">
+      <Filter>Source\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\RandomEvent.h">
+      <Filter>Source\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Squad\Character.h">
+      <Filter>Source\Squad</Filter>
+    </ClInclude>
+    <ClInclude Include="Caste\Unit.h">
+      <Filter>Source\Caste</Filter>
+    </ClInclude>
+    <ClInclude Include="Caste\SettlementTypes.h">
+      <Filter>Source\Caste</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\SearchChar.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Caste\CasteTypes.h">
+      <Filter>Source\Caste</Filter>
+    </ClInclude>
+    <ClInclude Include="Technology\Technology.h">
+      <Filter>Source\Technology</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\StringToColor.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

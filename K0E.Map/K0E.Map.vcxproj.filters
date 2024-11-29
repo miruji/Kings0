@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Source\Maps">
+      <UniqueIdentifier>{d18c02f3-253f-4002-97d1-55fc02ca6d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Func">
+      <UniqueIdentifier>{bfb9c52b-96e7-4084-b09e-e3c85a700dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Maps\LandMap">
+      <UniqueIdentifier>{3fd8d4ed-d5a0-4253-bda3-863152c14a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Maps\WarFog">
+      <UniqueIdentifier>{49912224-bed4-4804-a0da-71e834777008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Maps\GridMap">
+      <UniqueIdentifier>{82de0955-e494-4fac-a1e8-da5f5384c315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Maps\RoadMap">
+      <UniqueIdentifier>{3428d5f7-b9b8-41d7-a7de-4d9a11f459bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Maps\LandMap\ForestMap">
+      <UniqueIdentifier>{c13ba4e9-9601-4feb-8f93-96bb15bcfc04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Maps\LandMap\MountainMap">
+      <UniqueIdentifier>{f844bddb-5b09-4b46-9dc8-daf4c9269e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Maps\MapBlock">
+      <UniqueIdentifier>{85ba981a-43cf-4ebc-92bc-9ce9191945e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Maps\NoEntryMap">
+      <UniqueIdentifier>{e802067f-fb1f-401c-b402-e59f62360ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Maps\DomainMap">
+      <UniqueIdentifier>{e72421cc-efae-4b7b-aed7-6c30a7d96e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Maps\PreviewMap">
+      <UniqueIdentifier>{24850699-49f3-458d-936f-221dd6a79bfe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Func\CharsStringEqually.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\GetRandomNumber.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\LandMap\LandMap.h">
+      <Filter>Source\Maps\LandMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\WarFog\WarFog.h">
+      <Filter>Source\Maps\WarFog</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\GridMap\GridMap.h">
+      <Filter>Source\Maps\GridMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\RoadMap\RoadMap.h">
+      <Filter>Source\Maps\RoadMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\LandMap\MountainMap.h">
+      <Filter>Source\Maps\LandMap\MountainMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\LandMap\ForestMap.h">
+      <Filter>Source\Maps\LandMap\ForestMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\MapBlock\MapBlock.h">
+      <Filter>Source\Maps\MapBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\NoEntryMap\NoEntryMap.h">
+      <Filter>Source\Maps\NoEntryMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\DomainMap\DomainMap.h">
+      <Filter>Source\Maps\DomainMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\PreviewMap\PreviewMap.h">
+      <Filter>Source\Maps\PreviewMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\StringToColor.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\CharsStringEqually.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\GetRandomNumber.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\LandMap\LandMapGeneration1.cpp">
+      <Filter>Source\Maps\LandMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\LandMap\LandMapGeneration2.cpp">
+      <Filter>Source\Maps\LandMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\LandMap\LandMapGeneration3.cpp">
+      <Filter>Source\Maps\LandMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\LandMap\LandMapGeneration4.cpp">
+      <Filter>Source\Maps\LandMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\LandMap\Test1.cpp">
+      <Filter>Source\Maps\LandMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\LandMap\LandMap.cpp">
+      <Filter>Source\Maps\LandMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\WarFog\WarFog.cpp">
+      <Filter>Source\Maps\WarFog</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\GridMap\GridMap.cpp">
+      <Filter>Source\Maps\GridMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\RoadMap\RoadMap.cpp">
+      <Filter>Source\Maps\RoadMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\LandMap\MointainMap.cpp">
+      <Filter>Source\Maps\LandMap\MountainMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\LandMap\ForestMap.cpp">
+      <Filter>Source\Maps\LandMap\ForestMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\MapBlock\MapBlock.cpp">
+      <Filter>Source\Maps\MapBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\NoEntryMap\NoEntryMap.cpp">
+      <Filter>Source\Maps\NoEntryMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\DomainMap\DomainMap.cpp">
+      <Filter>Source\Maps\DomainMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\PreviewMap\PreviewMap.cpp">
+      <Filter>Source\Maps\PreviewMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\StringToColor.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="Center" Y="224" Width="597" Height="400" FixedPosition="0" Layer="1"/>
+			
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\Log.png" X="0" Y="0" W="597" H="400"/>
+		<!-- Window name -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="6|559" Y="6|25">~T_Log</Text>
+		<!-- Log items -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="6|141" Y="31|50">~B_Main</Text>
+		<Button ImageId="Window" Event="!GameLog" Src="Data\Textures\UI\None.png" X="6" Y="31" W="135" H="19"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="147|279" Y="31|50">~B_Technology</Text>
+		<Button ImageId="Window" Event="!GameLogTechnology0" Src="Data\Textures\UI\None.png" X="147" Y="31" W="135" H="19"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="423|559" Y="31|50">~B_Diplomacy</Text>
+		<Button ImageId="Window" Event="!GameLogDiplomacy" Src="Data\Textures\UI\None.png" X="423" Y="31" W="136" H="19"/>
+		<!-- Window exit -->
+		<Button ImageId="Window" Event="!Close" Src="Data\Textures\UI\None.png" X="570" Y="6" W="21" H="44"/>
+		<!-- Window -->
+			<!-- Team -->
+			<Image Id="BlockTeamItem1" ImageId="Window" Src="Data\Textures\UI\None.png" X="20" Y="70" W="249" H="78"/>
+			<Image Id="TeamIcon" ImageId="BlockTeamItem1" Src="Data\Textures\UI\DiplomacyTeam.png" X="2" Y="2" W="32" H="32"/>
+			<Image Id="TeamBracket1" ImageId="BlockTeamItem1" Src="Data\Textures\Game\Bracket1.png" X="2" Y="2" W="32" H="32"/>
+			<Image Id="TeamFlag1" ImageId="BlockTeamItem1" Src="Data\Textures\UI\Flags0.png" X="0" Y="36" W="36" H="72"/>
+			<Image Id="TeamFlag2" ImageId="BlockTeamItem1" Src="Data\Textures\UI\Flags1.png" X="0" Y="36" W="36" H="72"/>
+			<Text Id="TeamName1" ImageId="BlockTeamItem1" Color="rgba(255,255,255,255)" X="40|248" Y="1|20">~T_DiplomacyTeam0</Text>
+			<Text ImageId="BlockTeamItem1" Color="rgba(255,255,255,255)" X="40|133" Y="21|39">~T_DiplomacyAttitude</Text>
+			<Text Id="TeamAttitude1" ImageId="BlockTeamItem1" Spec="" Color="rgba(255,255,255,255)" X="134|176" Y="21|39">0</Text>
+			<Text Id="TeamStatus1" ImageId="BlockTeamItem1" Spec="" Color="rgba(255,255,255,255)" X="177|248" Y="21|39">0</Text>
+			
+			<Image Id="PlusButton" ImageId="BlockTeamItem1" Src="Data\Textures\UI\StatisticsPlusButton.png" X="60" Y="52" W="38" H="17"/>
+			<Button Id="TeamPlusButton1" ImageId="PlusButton" Event="" Src="Data\Textures\UI\None.png" X="1" Y="1" W="36" H="15"/>
+			<Image Id="MinusButton" ImageId="BlockTeamItem1" Src="Data\Textures\UI\StatisticsMinusButton.png" X="120" Y="52" W="38" H="17"/>
+			<Button Id="TeamMinusButton1" ImageId="MinusButton" Event="" Src="Data\Textures\UI\None.png" X="1" Y="1" W="36" H="15"/>
+			
+			<Text Id="TeamNation1" ImageId="BlockTeamItem1" Color="rgba(255,255,255,255)" X="40|248" Y="77">~T_NewGameNation</Text>
+			
+</Data>

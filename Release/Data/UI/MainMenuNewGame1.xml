@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="100" Y="Center" Width="603" Height="481" FixedPosition="1"/>
+
+	<!-- Block -->
+	<Image Id="Window" Src="Data\Textures\UI\MainMenuNewGame1.png" X="0" Y="0" W="603" H="481"/>
+		<!-- Window name -->
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="5|566" Y="5|26">~T_NewGameWindow</Text>
+		<!-- Window exit -->
+		<Button ImageId="Window" Event="!Close" Src="Data\Textures\UI\None.png" X="575" Y="5" W="23" H="21"/>
+		<Button ImageId="Window" Event="!NewGameBackNation" Src="Data\Textures\UI\None.png" X="5" Y="351" W="18" H="23"/>
+		<!-- Flag and nation -->
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="24|179" Y="272">~T_Flag</Text>
+			<Button ImageId="Window" Event="!NewGameBackFlag" Src="Data\Textures\UI\None.png" X="5" Y="268" W="19" H="23"/>
+			<Button ImageId="Window" Event="!NewGameNextFlag" Src="Data\Textures\UI\None.png" X="179" Y="268" W="19" H="23"/>
+			
+			<Image Id="NewGameFlag2" ImageId="Window" Src="Data\Textures\UI\Flags0.png" X="83" Y="294" W="36" H="72"/>
+			<Image Id="NewGameFlag2_2" ImageId="Window" Src="Data\Textures\UI\Flags1.png" X="83" Y="294" W="36" H="72"/>
+			
+			<Image Id="NewGameFlag1" ImageId="Window" Src="Data\Textures\UI\Flags0.png" X="40" Y="294" W="36" H="72"/>
+			<Image Id="NewGameFlag1_2" ImageId="Window" Src="Data\Textures\UI\Flags1.png" X="40" Y="294" W="36" H="72"/>
+			<Image ImageId="NewGameFlag1" Src="Data\Textures\UI\FlagsShadow.png" X="0" Y="0" W="36" H="72"/>
+			
+			<Image Id="NewGameFlag3" ImageId="Window" Src="Data\Textures\UI\Flags0.png" X="126" Y="294" W="36" H="72"/>
+			<Image Id="NewGameFlag3_2" ImageId="Window" Src="Data\Textures\UI\Flags1.png" X="126" Y="294" W="36" H="72"/>
+			<Image ImageId="NewGameFlag3" Src="Data\Textures\UI\FlagsShadow.png" X="0" Y="0" W="36" H="72"/>
+			
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="24|179" Y="373">~T_Nation</Text>
+			<Button ImageId="Window" Event="!NewGameBackNation" Src="Data\Textures\UI\None.png" X="5" Y="370" W="19" H="23"/>
+			<Button ImageId="Window" Event="!NewGameNextNation" Src="Data\Textures\UI\None.png" X="179" Y="370" W="19" H="23"/>
+			
+			<!-- Desciption -->
+			<Text   ImageId="Window" Spec="NewGameNation" Color="rgba(255,255,255,255)" X="6|197" Y="402">~T_NewGameNation</Text>
+			<Text   ImageId="Window" Spec="NewGameNationBonus" Color="rgba(255,255,255,255)" X="6|197" Y="424">~T_NewGameNation</Text>
+			
+		<!-- Map -->
+			<Image Id="Map" ImageId="Window" Src="Data\Textures\UI\None.png" X="7" Y="32" W="189" H="189"/>
+			
+			<Image Id="MapDescription2" ImageId="Map" Src="Data\Textures\UI\MainMenuNewGame1MapDesciption.png" X="0" Y="192" W="189" H="13"/>
+			<Text  ImageId="MapDescription2" Spec="MapSize" Color="rgba(255,255,255,255)" X="2" Y="0|13">~T_MapSize</Text>
+			<Image Id="MapDescription3" ImageId="Map" Src="Data\Textures\UI\MainMenuNewGame1MapDesciption.png" X="0" Y="205" W="189" H="13"/>
+			<Text  ImageId="MapDescription3" Spec="MapTeams" Color="rgba(255,255,255,255)" X="2" Y="0|13">~T_MapTeams</Text>
+		
+			<!-- Desciption -->
+			<ComboBox Id="MapName" ImageId="Window" Spec="" Text="~T_MapName" X="6" Y="252" Width="191"/>
+			
+		<!-- Player list -->
+			<Button ImageId="Window" Event="!NewGameRandomColor" Src="Data\Textures\UI\None.png" X="198" Y="31" W="22" H="21"/>
+			<Button ImageId="Window" Event="!NewGameRandomPosition" Src="Data\Textures\UI\None.png" X="221" Y="31" W="22" H="21"/>
+			<Text   ImageId="Window" Spec="NewGamePlayersList" Color="rgba(255,255,255,255)" X="245|511" Y="30|53">~T_Players</Text>
+			<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="512|597" Y="30|53">~T_Place</Text>
+			
+			<Gif Id="Pointer" IamgeId="Window" Src="Data\Textures\UI\NewGamePointer0.png;Data\Textures\UI\NewGamePointer1.png;" Delay="20" X="200" Y="56" W="395" H="40"/>
+			
+			<Image Id="Item0" ImageId="Window" Src="Data\Textures\UI\NewGameItem0.png" X="201" Y="57" W="393" H="38"/>
+				<Image                  ImageId="Item0" Src="Data\Textures\UI\DiplomacyTeam.png" X="3" Y="3" W="32" H="32"/>
+				<Image Id="PlayerList0" ImageId="Item0" Src="Data\Textures\Game\Bracket0.png" X="3" Y="3" W="32" H="32"/>
+				<Text  Id="PlayerName0" ImageId="Item0" Spec="NewGamePlayerName0" Color="rgba(255,255,255,255)" X="36|145" Y="6">~T_Name</Text>
+				<Text  Id="PlayerEmpty0" ImageId="Item0" Color="rgba(255,255,255,255)" X="37|391" Y="6">~T_Empty</Text>
+				
+				<ComboBox Id="PlayerStartPosition0" ImageId="Item0" Spec="" Text="0" X="315" Y="6" Width="72"/>
+			<Button ImageId="Item0" Event="!LoadGamePointerUpdate0" Src="Data\Textures\UI\None.png" X="2" Y="2" W="311" H="34" Resize="1"/>
+
+			<Image Id="Item1" ImageId="Window" Src="Data\Textures\UI\NewGameItem0.png" X="201" Y="96" W="393" H="38"/>
+				<Image                  ImageId="Item1" Src="Data\Textures\UI\DiplomacyTeam.png" X="3" Y="3" W="32" H="32"/>
+				<Image Id="PlayerList1" ImageId="Item1" Src="Data\Textures\Game\Bracket0.png" X="3" Y="3" W="32" H="32"/>
+				<Text  Id="PlayerName1" ImageId="Item1" Spec="NewGamePlayerName1" Color="rgba(255,255,255,255)" X="36|145" Y="6">~T_Name</Text>
+				<Text  Id="PlayerEmpty1" ImageId="Item1" Color="rgba(255,255,255,255)" X="37|391" Y="6">~T_Empty</Text>
+				
+				
+				<ComboBox Id="PlayerStartPosition1" ImageId="Item1" Spec="" Text="0" X="315" Y="6" Width="72"/>
+			<Button ImageId="Item1" Event="!LoadGamePointerUpdate1" Src="Data\Textures\UI\None.png" X="2" Y="2" W="311" H="34" Resize="1"/>
+			
+			<Image Id="Item2" ImageId="Window" Src="Data\Textures\UI\NewGameItem0.png" X="201" Y="135" W="393" H="38"/>
+				<Image                  ImageId="Item2" Src="Data\Textures\UI\DiplomacyTeam.png" X="3" Y="3" W="32" H="32"/>
+				<Image Id="PlayerList2" ImageId="Item2" Src="Data\Textures\Game\Bracket0.png" X="3" Y="3" W="32" H="32"/>
+				<Text  Id="PlayerName2" ImageId="Item2" Spec="NewGamePlayerName2" Color="rgba(255,255,255,255)" X="36|145" Y="6">~T_Name</Text>
+				<Text  Id="PlayerEmpty2" ImageId="Item2" Color="rgba(255,255,255,255)" X="37|391" Y="6">~T_Empty</Text>
+				
+				<ComboBox Id="PlayerStartPosition2" ImageId="Item2" Spec="" Text="0" X="315" Y="6" Width="72"/>
+			<Button ImageId="Item2" Event="!LoadGamePointerUpdate2" Src="Data\Textures\UI\None.png" X="2" Y="2" W="311" H="34" Resize="1"/>
+			
+			<Image Id="Item3" ImageId="Window" Src="Data\Textures\UI\NewGameItem0.png" X="201" Y="174" W="393" H="38"/>
+				<Image                  ImageId="Item3" Src="Data\Textures\UI\DiplomacyTeam.png" X="3" Y="3" W="32" H="32"/>
+				<Image Id="PlayerList3" ImageId="Item3" Src="Data\Textures\Game\Bracket0.png" X="3" Y="3" W="32" H="32"/>
+				<Text  Id="PlayerName3" ImageId="Item3" Spec="NewGamePlayerName3" Color="rgba(255,255,255,255)" X="36|145" Y="6">~T_Name</Text>
+				<Text  Id="PlayerEmpty3" ImageId="Item3" Color="rgba(255,255,255,255)" X="37|391" Y="6">~T_Empty</Text>
+				
+				<ComboBox Id="PlayerStartPosition3" ImageId="Item3" Spec="" Text="0" X="315" Y="6" Width="72"/>
+			<Button ImageId="Item3" Event="!LoadGamePointerUpdate3" Src="Data\Textures\UI\None.png" X="2" Y="2" W="311" H="34" Resize="1"/>
+			
+			<Image Id="Item4" ImageId="Window" Src="Data\Textures\UI\NewGameItem0.png" X="201" Y="213" W="393" H="38"/>
+				<Image                  ImageId="Item4" Src="Data\Textures\UI\DiplomacyTeam.png" X="3" Y="3" W="32" H="32"/>
+				<Image Id="PlayerList4" ImageId="Item4" Src="Data\Textures\Game\Bracket0.png" X="3" Y="3" W="32" H="32"/>
+				<Text  Id="PlayerName4" ImageId="Item4" Spec="NewGamePlayerName4" Color="rgba(255,255,255,255)" X="36|145" Y="6">~T_Name</Text>
+				<Text  Id="PlayerEmpty4" ImageId="Item4" Color="rgba(255,255,255,255)" X="37|391" Y="6">~T_Empty</Text>
+				
+				<ComboBox Id="PlayerStartPosition4" ImageId="Item4" Spec="" Text="0" X="315" Y="6" Width="72"/>
+			<Button ImageId="Item4" Event="!LoadGamePointerUpdate4" Src="Data\Textures\UI\None.png" X="2" Y="2" W="311" H="34" Resize="1"/>
+			
+			<Image Id="Item5" ImageId="Window" Src="Data\Textures\UI\NewGameItem0.png" X="201" Y="252" W="393" H="38"/>
+				<Image                  ImageId="Item5" Src="Data\Textures\UI\DiplomacyTeam.png" X="3" Y="3" W="32" H="32"/>
+				<Image Id="PlayerList5" ImageId="Item5" Src="Data\Textures\Game\Bracket0.png" X="3" Y="3" W="32" H="32"/>
+				<Text  Id="PlayerName5" ImageId="Item5" Spec="NewGamePlayerName5" Color="rgba(255,255,255,255)" X="36|145" Y="6">~T_Name</Text>
+				<Text  Id="PlayerEmpty5" ImageId="Item5" Color="rgba(255,255,255,255)" X="37|391" Y="6">~T_Empty</Text>
+				
+				<ComboBox Id="PlayerStartPosition5" ImageId="Item5" Spec="" Text="0" X="315" Y="6" Width="72"/>
+			<Button ImageId="Item5" Event="!LoadGamePointerUpdate5" Src="Data\Textures\UI\None.png" X="2" Y="2" W="311" H="34" Resize="1"/>
+			
+			<Image Id="Item6" ImageId="Window" Src="Data\Textures\UI\NewGameItem0.png" X="201" Y="291" W="393" H="38"/>
+				<Image                  ImageId="Item6" Src="Data\Textures\UI\DiplomacyTeam.png" X="3" Y="3" W="32" H="32"/>
+				<Image Id="PlayerList6" ImageId="Item6" Src="Data\Textures\Game\Bracket0.png" X="3" Y="3" W="32" H="32"/>
+				<Text  Id="PlayerName6" ImageId="Item6" Spec="NewGamePlayerName6" Color="rgba(255,255,255,255)" X="36|145" Y="6">~T_Name</Text>
+				<Text  Id="PlayerEmpty6" ImageId="Item6" Color="rgba(255,255,255,255)" X="37|391" Y="6">~T_Empty</Text>
+				
+				<ComboBox Id="PlayerStartPosition6" ImageId="Item6" Spec="" Text="0" X="315" Y="6" Width="72"/>
+			<Button ImageId="Item6" Event="!LoadGamePointerUpdate6" Src="Data\Textures\UI\None.png" X="2" Y="2" W="311" H="34" Resize="1"/>
+			
+			<Image Id="Item7" ImageId="Window" Src="Data\Textures\UI\NewGameItem0.png" X="201" Y="330" W="393" H="38"/>
+				<Image                  ImageId="Item7" Src="Data\Textures\UI\DiplomacyTeam.png" X="3" Y="3" W="32" H="32"/>
+				<Image Id="PlayerList7" ImageId="Item7" Src="Data\Textures\Game\Bracket0.png" X="3" Y="3" W="32" H="32"/>
+				<Text  Id="PlayerName7" ImageId="Item7" Spec="NewGamePlayerName7" Color="rgba(255,255,255,255)" X="36|145" Y="6">~T_Name</Text>
+				<Text  Id="PlayerEmpty7" ImageId="Item7" Color="rgba(255,255,255,255)" X="37|391" Y="6">~T_Empty</Text>
+				
+				<ComboBox Id="PlayerStartPosition7" ImageId="Item7" Spec="" Text="0" X="315" Y="6" Width="72"/>
+			<Button ImageId="Item7" Event="!LoadGamePointerUpdate7" Src="Data\Textures\UI\None.png" X="2" Y="2" W="311" H="34" Resize="1"/>
+			
+			<Image Id="Item8" ImageId="Window" Src="Data\Textures\UI\NewGameItem0.png" X="201" Y="369" W="393" H="38"/>
+				<Image                  ImageId="Item8" Src="Data\Textures\UI\DiplomacyTeam.png" X="3" Y="3" W="32" H="32"/>
+				<Image Id="PlayerList8" ImageId="Item8" Src="Data\Textures\Game\Bracket0.png" X="3" Y="3" W="32" H="32"/>
+				<Text  Id="PlayerName8" ImageId="Item8" Spec="NewGamePlayerName8" Color="rgba(255,255,255,255)" X="36|145" Y="6">~T_Name</Text>
+				<Text  Id="PlayerEmpty8" ImageId="Item8" Color="rgba(255,255,255,255)" X="37|391" Y="6">~T_Empty</Text>
+				
+				<ComboBox Id="PlayerStartPosition8" ImageId="Item8" Spec="" Text="0" X="315" Y="6" Width="72"/>
+			<Button ImageId="Item8" Event="!LoadGamePointerUpdate8" Src="Data\Textures\UI\None.png" X="2" Y="2" W="311" H="34" Resize="1"/>
+			
+			<Image Id="Item9" ImageId="Window" Src="Data\Textures\UI\NewGameItem0.png" X="201" Y="408" W="393" H="38"/>
+				<Image                  ImageId="Item9" Src="Data\Textures\UI\DiplomacyTeam.png" X="3" Y="3" W="32" H="32"/>
+				<Image Id="PlayerList9" ImageId="Item9" Src="Data\Textures\Game\Bracket0.png" X="3" Y="3" W="32" H="32"/>
+				<Text  Id="PlayerName9" ImageId="Item9" Spec="NewGamePlayerName9" Color="rgba(255,255,255,255)" X="36|145" Y="6">~T_Name</Text>
+				<Text  Id="PlayerEmpty9" ImageId="Item9" Color="rgba(255,255,255,255)" X="37|391" Y="6">~T_Empty</Text>
+				
+				<ComboBox Id="PlayerStartPosition9" ImageId="Item9" Spec="" Text="0" X="315" Y="6" Width="72"/>
+			<Button ImageId="Item9" Event="!LoadGamePointerUpdate9" Src="Data\Textures\UI\None.png" X="2" Y="2" W="311" H="34" Resize="1"/>
+			
+		<!-- More buttons -->
+		<Button ImageId="Window" Event="!Back" Src="Data\Textures\UI\None.png" X="5" Y="455" W="100" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="5|105" Y="455|476">~B_Back</Text>
+		
+		<Button ImageId="Window" Event="@Guide0" Src="Data\Textures\UI\None.png" X="109" Y="455" W="93" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="109|202" Y="455|476">~B_Guide</Text>
+		
+		<Button ImageId="Window" Event="!KickPlayer" Src="Data\Textures\UI\None.png" X="305" Y="455" W="95" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="305|400" Y="455|476">~B_Kick</Text>
+		
+		<Button ImageId="Window" Event="!AddPlayer" Src="Data\Textures\UI\None.png" X="404" Y="455" W="94" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="404|499" Y="455|476">~B_Add</Text>
+		
+		<Button ImageId="Window" Event="!CreateNewGame" Src="Data\Textures\UI\None.png" X="503" Y="455" W="95" H="21"/>
+		<Text   ImageId="Window" Color="rgba(255,255,255,255)" X="503|598" Y="455|476">~B_Play</Text>
+
+</Data>

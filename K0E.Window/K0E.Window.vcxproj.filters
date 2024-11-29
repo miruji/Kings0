@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Source\UI">
+      <UniqueIdentifier>{efe9dc04-f6b7-4f97-b6be-3decbac32d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\ImGui">
+      <UniqueIdentifier>{2ce36085-5bd7-4a84-b9ea-e81b6cb678d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Camera">
+      <UniqueIdentifier>{43f7d132-c9ce-4f71-8750-22aa7b4c82ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input">
+      <UniqueIdentifier>{773e2a9d-d437-45df-8a2f-0adc8753f316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Func">
+      <UniqueIdentifier>{52592b0f-6185-4c16-8a55-7771f56ef069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mouse">
+      <UniqueIdentifier>{07763d29-f2b2-4959-b0f3-095b7791a839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Cursor">
+      <UniqueIdentifier>{26e65116-157e-46b3-96de-ba0125f8fc68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{88fecec7-d28a-4c77-970c-8a73b6ef36c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MapPointer">
+      <UniqueIdentifier>{17f8be6a-7cf2-4aef-8bd2-f6ef641bc3bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input\Numbers">
+      <UniqueIdentifier>{9fdec0a6-0d94-4aa5-a4e8-168b45025162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input\UI">
+      <UniqueIdentifier>{9c256ae6-31a0-4fd5-b60c-fad225f6be1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Units">
+      <UniqueIdentifier>{a31b7790-04ff-48ff-b2cb-9c50cd0fadb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Network">
+      <UniqueIdentifier>{4c0a198d-9192-49d3-a589-27ad3f4378fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\NewGamePlayer">
+      <UniqueIdentifier>{18eecd63-958e-411b-939a-dd2f370296d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input\Control">
+      <UniqueIdentifier>{d2e13964-acf5-4d6a-8108-4f621db6944d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\NewGameCaste">
+      <UniqueIdentifier>{7a090079-45a5-43e0-886c-dc9943a395b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIObject.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIImage.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIButton.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\GetRandomNumber.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIText.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIBlock.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIGif.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse\Mouse.h">
+      <Filter>Source\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIInput.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor\Cursor.h">
+      <Filter>Source\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPointer\MapPointer.h">
+      <Filter>Source\MapPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\SearchChar.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UICheckBox.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\ThisSymbol.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\StringToWString.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIComboBox.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\NumToKeyCode.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\CharToInt.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\DevideOutCharacter.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\ThisInt.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\CutBackNum.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\GetBackEventNumber.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UITextWrapped.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGameCaste\NewGameCaste.h">
+      <Filter>Source\NewGameCaste</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\ColorGenerate.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\StringToColor.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UISlideInt.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIObject.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIImage.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIButton.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Input.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\GetRandomNumber.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIText.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIBlock.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIGif.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse\Mouse.cpp">
+      <Filter>Source\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIInput.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIDraw.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIEvent.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Game_InSettlement.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UISpec.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Game_PlayerWarFog.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor\Cursor.cpp">
+      <Filter>Source\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CreateNewGame.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\RegenerateNoEntryMap.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CreateMaps.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPointer\MapPointer.cpp">
+      <Filter>Source\MapPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\SearchChar.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CreateNewSettlement.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\DeleteSettlement.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UpdateLandMapSettlements.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SetNewCasteAttitude.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UpdateAttitudeStatus.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GetItemStatus.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_MainMenuNumbers.cpp">
+      <Filter>Source\Input\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_SettlementNumbers.cpp">
+      <Filter>Source\Input\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_Numbers.cpp">
+      <Filter>Source\Input\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_NumbersEvents.cpp">
+      <Filter>Source\Input\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_UpdateMapPointer.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_GetLeftBlockName.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_HideImageButton.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_InventoryUnitClearUpdate.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_InventoryUnitUpdate.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_InventoryUpdate.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_LeftBlockUpdate.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_SetMainMenu.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_ShowAllElements.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_BuyUnit.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\DeleteItem.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UICheckBox.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\ThisSymbol.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SaveGame.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UICheckBoxEvent.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateNewRender.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\StringToWString.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="GetWindowPosition.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIComboBox.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIComboBoxEvent.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\NumToKeyCode.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_LogDiplomacyUpdate.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_NewGameFlag.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_UpdateGameBasicFlag.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TechnologyEvent.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_NewGameNation.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_UpdateComboBoxsCurrentItems.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_SellUnit.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GetItemStatusResult.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveSettings.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SearchNextBlockDomain.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SearchNextBlockEnemy.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ImGui\imgui.cpp">
+      <Filter>Source\UI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ImGui\imgui_demo.cpp">
+      <Filter>Source\UI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ImGui\imgui_draw.cpp">
+      <Filter>Source\UI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ImGui\imgui_tables.cpp">
+      <Filter>Source\UI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ImGui\imgui_widgets.cpp">
+      <Filter>Source\UI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ImGui\imgui-SFML.cpp">
+      <Filter>Source\UI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_LogDiplomacyBigUpdate.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\CharToInt.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\DevideOutCharacter.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\ThisInt.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_LeftBlockHideButtons.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_UpdateNewGamePlayerIcon.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_UpdateNewGameMapImage.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_UpdateTechnologyButtons.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_UpdateTechnologyBack.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LoadGame.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_LoadGamePointerUpdate.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_LoadGameUpdate.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\DeleteGame.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CreateNewWindowCamera.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\EnemyUnitDie.cpp">
+      <Filter>Source\Game\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayerUnitDie.cpp">
+      <Filter>Source\Game\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIEventSound.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_SearchMessage.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\CreateServer.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ConnectToIpAndPort.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\CutBackNum.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SetNewPreview.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UpdateDomainPreview.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\AddNewGamePlayer.cpp">
+      <Filter>Source\Game\NewGamePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UpdateNewGamePlayer.cpp">
+      <Filter>Source\Game\NewGamePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\KickNewGamePlayer.cpp">
+      <Filter>Source\Game\NewGamePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_Arrows.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_B.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_Ctrl.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_Esc.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_F.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_G.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_H.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_M.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_N.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_O.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_P.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_Progress.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_QEZC.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_R.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_Tab.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_Tilde.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_WAXD.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_Shift.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Control_Zoom.cpp">
+      <Filter>Source\Input\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TradeItemsUpdate.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\GetBackEventNumber.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UITextWrapped.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_HideByImageId.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_UpdateNewGameItems.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGameCaste\NewGameCaste.cpp">
+      <Filter>Source\NewGameCaste</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\ColorGenerate.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_GenerateNewGamePlayers.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\StringToColor.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SetNewDomain.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIComboBoxTextUpdate.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UISlideInt.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\UI_GenerateNewGamePlayersColor.cpp">
+      <Filter>Source\Input\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UISlideIntUpdate.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SearchBackYourDomain.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWindowFocus.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Window X="0" Y="0" Width="0" Height="0" FixedPosition="1" Layer="1"/>
+
+	<!-- Top border -->
+	<Image Src="Data\Textures\UI\TopBorder.png" X="0" Y="0" W="Maximum" H="45"/>
+	
+		<!-- Top block 1 -->
+		<Image Id="TopBlock1" Src="Data\Textures\UI\TopBlock1.png" X="0" Y="0" W="212" H="108"/>
+			<!-- Flag -->
+			<Image ImageId="TopBlock1" Src="Data\Textures\UI\DiplomacyTeam.png" X="17" Y="2" W="32" H="32"/>
+			<Image Id="TeamUnit" ImageId="TopBlock1" Src="Data\Textures\Game\Bracket1.png" X="17" Y="2" W="32" H="32"/>
+			<Image Id="TeamFlag1" ImageId="TopBlock1" Src="Data\Textures\UI\Flags0.png" X="15" Y="36" W="36" H="72"/>
+			<Image Id="TeamFlag2" ImageId="TopBlock1" Src="Data\Textures\UI\Flags1.png" X="15" Y="36" W="36" H="72"/>
+			<!-- Log button -->
+			<Button ImageId="TopBlock1" Event="!GameLogNew" Src="Data\Textures\UI\None.png" X="58" Y="1" W="133" H="30"/>
+			<Text   ImageId="TopBlock1" Color="rgba(255,255,255,255)" X="90|192" Y="6|23">~B_Log</Text>
+
+		<!-- Top block 2 -->
+		<Image Id="TopBlock2" ImageId="TopBlock1" Src="Data\Textures\UI\TopBlock2.png" X="Maximum" Y="0" W="694" H="64"/>
+			<!-- Progress text -->
+			<Button ImageId="TopBlock2" Event="!Progress" Src="Data\Textures\UI\None.png"  X="19" Y="1" W="90" H="30"/>
+			<Text   ImageId="TopBlock2" Spec="Progress" Color="rgba(255,255,255,255)" X="44|108" Y="4|28">0</Text>
+			<!-- Building limit -->
+			<Text ImageId="TopBlock2" Spec="BuildingLimit" Color="rgba(255,255,255,255)" X="48|101" Y="36|59">0/15</Text>
+			
+			<!-- Technology points -->
+			<Text ImageId="TopBlock2" Spec="TechnologyPoints" Color="rgba(255,255,255,255)" X="117|251" Y="6|23">0</Text>
+			<!-- Вiplo points -->
+			<Text ImageId="TopBlock2" Spec="DiploPoints" Color="rgba(255,255,255,255)" X="262|396" Y="6|23">0</Text>
+			<!-- Movement points -->
+			<Text ImageId="TopBlock2" Spec="MovePoints" Color="rgba(255,255,255,255)" X="407|541" Y="6|23">0</Text>
+			<!-- Squad condition -->
+			<Text ImageId="TopBlock2" Spec="SquadCondition" Color="rgba(255,255,255,255)" X="552|686" Y="6|23">0</Text>
+			
+			<!-- Cash -->
+			<Text ImageId="TopBlock2" Spec="Cash" Color="rgba(255,255,255,255)" X="117|251" Y="39|56">0</Text>
+			<!-- Food -->
+			<Text ImageId="TopBlock2" Spec="Food" Color="rgba(255,255,255,255)" X="262|396" Y="39|56">0</Text>
+			<!-- Wood -->
+			<Text ImageId="TopBlock2" Spec="Wood" Color="rgba(255,255,255,255)" X="407|541" Y="39|56">0</Text>
+			<!-- Population -->
+			<Text ImageId="TopBlock2" Spec="Population" Color="rgba(255,255,255,255)" X="552|686" Y="39|56">0</Text>
+			
+	<!-- Need resources -->
+	<Image Id="NeedResources" Src="Data\Textures\UI\None.png" X="Center" Y="Center" W="256" H="256"/>
+	<Text  ImageId="NeedResources" Spec="NeedResources1" Color="rgba(0,0,0,255)" X="-320|320" Y="14">~T_Resources</Text>
+	<Text  ImageId="NeedResources" Spec="NeedResources2" Color="rgba(0,0,0,255)" X="-320|320" Y="14">~T_Resources</Text>
+	<Text  ImageId="NeedResources" Spec="NeedResources3" Color="rgba(0,0,0,255)" X="-320|320" Y="14">~T_Resources</Text>
+	<Text  ImageId="NeedResources" Spec="NeedResources4" Color="rgba(0,0,0,255)" X="-320|320" Y="14">~T_Resources</Text>
+	<Text  ImageId="NeedResources" Spec="NeedResources5" Color="rgba(0,0,0,255)" X="-320|320" Y="14">~T_Resources</Text>
+	<Text  ImageId="NeedResources" Spec="NeedResources6" Color="rgba(0,0,0,255)" X="-320|320" Y="14">~T_Resources</Text>
+	<Text  ImageId="NeedResources" Spec="NeedResources7" Color="rgba(0,0,0,255)" X="-320|320" Y="14">~T_Resources</Text>
+	<Text  ImageId="NeedResources" Spec="NeedResources8" Color="rgba(0,0,0,255)" X="-320|320" Y="14">~T_Resources</Text>	
+	<Text  ImageId="NeedResources" Spec="NeedResources" Color="rgba(237,57,23,255)" X="-320|320" Y="14">~T_Resources</Text>
+			
+	<!-- Bottom border -->
+	<Image Src="Data\Textures\UI\BottomBorder.png" X="0" Y="Maximum" W="Maximum" H="45"/>
+	
+		<!-- Down right buttons -->
+		<Image Id="DownRightButtons" Src="Data\Textures\UI\DownRightButtons.png" X="|-151" Y="Maximum" W="66" H="32"/>	
+		<Button ImageId="DownRightButtons" Event="!Zoom_Plus" Src="Data\Textures\UI\None.png" X="0" Y="0" W="32" H="32"/>
+		<Button ImageId="DownRightButtons" Event="!Zoom_Minus" Src="Data\Textures\UI\None.png" X="34" Y="0" W="32" H="32"/>
+		
+		<!-- Demo version -->
+		<Image Id="DemoVersion" Src="Data\Textures\UI\DemoVersion.png" X="Maximum" Y="Maximum" W="148" H="38"/>
+		<Text  ImageId="DemoVersion" Spec="Version" Color="rgba(255,255,255,255)" X="6" Y="-34">~T_Version</Text>
+		<!-- FPS -->
+		<Text ImageId="DemoVersion" Spec="FPS" Color="rgba(103,220,17,255)" X="6" Y="-54">~T_FPS</Text>
+		
+</Data>
