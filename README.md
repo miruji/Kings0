@@ -1,4 +1,5 @@
-# Kingso C++
+<img src="Icon96x96.png" alt="RTS" align="left" width="70">
+<h1>Kingso C++</h1>
 
 ## So, what is this?
 
